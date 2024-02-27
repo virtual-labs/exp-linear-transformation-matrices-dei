@@ -2,12 +2,12 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Let T:R<sup>2</sup>&rarr;R<sup>2</sup> be the linear transformation defined by T(x, y)=(x, 0), where x, y&isin;R. Then the nullity of T is?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "1",
+        "b": "0",
+        "c": "2",
+        "d": "Not defined"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -19,12 +19,12 @@
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Let T:R<sup>2</sup>&rarr;R<sup>2</sup> be the linear transformation defined by T(x, y)=(x, -y), where x, y&isin;R. Then the rank of T is?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "1",
+        "b": "0",
+        "c": "2",
+        "d": "Not defined"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -33,6 +33,54 @@
         "d": "Explanation 2"
       },
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },{
+      "question": "Let T:R<sup>2</sup>&rarr;R<sup>3</sup> be the linear transformation defined by T(x, y)=(x, x+y, 0), where x, y, z&isin;R. Then the nullity of T is?",
+      "answers": {
+        "a": "1",
+        "b": "0",
+        "c": "2",
+        "d": "3"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },{
+      "question": "Let T:R<sup>2</sup>&rarr;R<sup>3</sup> be the linear transformation defined by T(x, y)=(x, -y, 0), where x, y, z&isin;R. Then the null space of T is?",
+      "answers": {
+        "a": "{(0, 0, &gamma;): &gamma; &isin; R}",
+        "b": "{(&alpha;, &beta;, 0): &alpha;, &beta; &isin; R}",
+        "c": "{(&alpha;, 0, &gamma;): &alpha;, &gamma; &isin; R}",
+        "d": "{(0, 0, 0)}"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },{
+      "question": "Let T:R<sup>2</sup>&rarr;R<sup>2</sup> be the linear transformation defined by T(x, y)=(x, y), where x, y&isin;R. Then the range space of T is?",
+      "answers": {
+        "a": "{(&alpha;, &beta;): &alpha;, &beta; &isin; R}",
+        "b": "{(&alpha;, 0): &alpha; &isin; R}",
+        "c": "{(0, &beta;): &beta; &isin; R}",
+        "d": "{(0, 0)}"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "a",
       "difficulty": "beginner"
     }
   ]
