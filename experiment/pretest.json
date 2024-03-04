@@ -36,7 +36,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "The order of matrix $$ \\begin{pmatrix} x  &  x+y  \\\\ y+z & z  \\end{pmatrix} $$ is:",
+      "question": "The order of following matrix is: $$ \\begin{pmatrix} x  &  x+y  \\\\ y+z & z  \\end{pmatrix} $$",
       "answers": {
         "a": "1x2",
         "b": "2x2",
