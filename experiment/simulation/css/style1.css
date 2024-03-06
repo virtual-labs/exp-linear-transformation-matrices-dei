@@ -1,0 +1,40 @@
+    body {
+      margin: 0;
+      padding: 0.2rem;
+    }
+    .pagehead{
+      display: block;
+      text-align: center;
+      border-top: 2px solid lightseagreen;
+      background: linear-gradient(yellow, lightseagreen);
+      padding: 0.2rem 0.2rem 0.2rem 0.2rem;
+      float:center;
+      margin: 0.5rem;
+      font-size: 32px;
+    }
+
+    .case{
+      background-color: lightyellow;
+      padding: 0.3rem 1rem 0.3rem 1rem;
+      margin: 0.1rem;
+    }
+    img{
+        width:20vw;
+        height:30vh;
+    }
+    .responsive-three-columns {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+/* columns */
+.responsive-three-columns > * {
+    width:100%;
+    /*padding:1rem;*/
+    border:1px solid black;
+}
+@media (min-width:768px) {
+    .responsive-three-columns > * {
+        width:30%;
+    }
+}
