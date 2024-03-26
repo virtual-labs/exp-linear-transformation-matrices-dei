@@ -20,7 +20,7 @@
             return false
         }
 
-        document.getElementById("displaymatrix").innerHTML=("Thus we choose \\[ A&ensp;&equiv;&ensp;\\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix} \\ =  \\begin{pmatrix} "+aval+ " & " +bval+" \\\\ "+cval+ " & " +dval+" \\end{pmatrix} \\]");
+        document.getElementById("displaymatrix").innerHTML=("\\[ A&ensp;&equiv;&ensp;\\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix} \\ =  \\begin{pmatrix} "+aval+ " & " +bval+" \\\\ "+cval+ " & " +dval+" \\end{pmatrix} \\]");
         MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
     }
 

@@ -52,7 +52,7 @@
     <div class="container">
         <h4>Defining T given a matrix A w.r.t. given bases:</h4>
         <!-- <div id="latexMatrixContainer">A = \( \begin{pmatrix} a & b \\ c & d \end{pmatrix} \)</div> -->
-        <ul><li><label>Enter the values to choose matrix A</label></li></ul><br>
+        <ul><li><label>Enter the values of a, b, c, d to choose matrix A</label></li></ul><br>
         <label>a: </label><input id="a" type="number">
         <label>b: </label><input id="b" type="number"><br>
         <label>c: </label><input id="c" type="number">
@@ -85,7 +85,9 @@
         <p id="displayb2"></p>
         
         <!-- <h4>Then T:R<sup>2</sup> &rarr; R<sup>2</sup> w.r.t. the bases B<sub>1</sub> and B<sub>2</sub> is </h4> -->
-        <button onclick="ltdetails()">Linear Transformation w.r.t. the bases B<sub>1</sub> and B<sub>2</sub></button>
+        <!-- <button onclick="ltdetails()">Linear Transformation w.r.t. the bases B<sub>1</sub> and B<sub>2</sub></button> -->
+       
+        <button onclick="ltdetails()">Linear Transformation associated with matrix A</button>
         <p id="lt" style="text-align: center;"></p>
         <p id="explain" style="color:blue; font-style:bold;"></p>
         <!-- <a href="#explain" id='explain' onclick="explanation()"></a> -->
