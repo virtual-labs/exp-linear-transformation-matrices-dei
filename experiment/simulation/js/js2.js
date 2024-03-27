@@ -10,23 +10,23 @@
         
 
         if(document.getElementById('a').value.length == 0){
-            alert("Please enter the basis");
+            alert("Please enter all the values");
             return false
         }
         if(document.getElementById('c').value.length == 0){
-            alert("Please enter the basis");
+            alert("Please enter all the values");
             return false
         }
         if(document.getElementById('d').value.length == 0){
-            alert("Please enter the basis");
+            alert("Please enter all the values");
             return false
         }
         if(document.getElementById('e').value.length == 0){
-            alert("Please enter the basis");
+            alert("Please enter all the values");
             return false
         }
         if(document.getElementById('f').value.length == 0){
-            alert("Please enter the basis");
+            alert("Please enter all the values");
             return false
         }
 
@@ -38,13 +38,13 @@
         var m = parseFloat(m);
         m = be/bc;
         if(bf == (m*bd)){
-            alert("Enter valid basis");
+            alert("Please enter valid basis");
             return false
         }
 
         if(bc == 0){
             if (be == 0){
-                alert("Enter valid basis");
+                alert("Please enter valid basis");
                 return false
             }
         }
