@@ -8,4 +8,5 @@
 | SNo. | Name | Email | Faculty | Institute |
 | :---: | :---: | :---: | :---: | :---: |
 | 1 | Yashi Agrawal | yashi03902@gmail.com | Faculty of Engineering | Dayalbagh Educational Institute |
+| 2 | A Gurucharan| gurucharan1027@gmail.com | Faculty of Science | Dayalbagh Educational Institute |
 | 2 | Shinu Pachauri | shinupachouri520@gmail.com | Faculty of Science | Dayalbagh Educational Institute |
