@@ -13,15 +13,15 @@ Let M and N be vector spaces over a field R. Then the function T:M→N defined a
 a). Let T: R<sup>2</sup>→R<sup>2</sup> such that T(x, y)=(x, -y), where x, y&isin;R. Then T is linear.
 
 #### &emsp;  Proof:
-&emsp; Let x=(x<sub>1</sub>, x<sub>2</sub>)and y=(y<sub>1</sub>, y<sub>2</sub>)&isin;R,<sup>2</sup>. Then T(x<sub>1</sub>, x<sub>2</sub>)=(x<sub>1</sub>, -x<sub>2</sub>) and
+&emsp; Let x=(x<sub>1</sub>, x<sub>2</sub>)and y=(y<sub>1</sub>, y<sub>2</sub>)&isin;R<sup>2</sup>. Then T(x<sub>1</sub>, x<sub>2</sub>)=(x<sub>1</sub>, -x<sub>2</sub>) and
 T(y<sub>1</sub>, y<sub>2</sub>)=(y<sub>1</sub>, -y<sub>2</sub>). Notice that<br>
-&emsp; (i)T(x+y)=T[(x, x<sub>2</sub>)+(y<sub>1</sub>, y<sub>2</sub>)]=T(x<sub>1</sub>+y<sub>1</sub>, x<sub>2</sub>+y<sub>2</sub>)=(x<sub>1</sub>+y<sub>1</sub>, -( x<sub>2</sub>+y<sub>2</sub>)) and T(x)+T(y)=(x<sub>1</sub>, -x<sub>2</sub>)+ (y<sub>1</sub>, -y<sub>2</sub>)= (x<sub>1</sub>+y<sub>1</sub>, -( x<sub>2</sub>+y<sub>2</sub>).<br>
+&emsp; (i)T(x+y)=T[(x<sub>1</sub>, x<sub>2</sub>)+(y<sub>1</sub>, y<sub>2</sub>)]=T(x<sub>1</sub>+y<sub>1</sub>, x<sub>2</sub>+y<sub>2</sub>)=(x<sub>1</sub>+y<sub>1</sub>, -( x<sub>2</sub>+y<sub>2</sub>)) and T(x)+T(y)=(x<sub>1</sub>, -x<sub>2</sub>)+ (y<sub>1</sub>, -y<sub>2</sub>)= (x<sub>1</sub>+y<sub>1</sub>, -( x<sub>2</sub>+y<sub>2</sub>).<br>
 &emsp; (ii) T(αx)=T(αx<sub>1</sub>, αx<sub>2</sub>)=(αx<sub>1</sub>, -αx<sub>2</sub>) and
 αT(x)=α(x<sub>1</sub>, -x<sub>2</sub>)=(αx<sub>1</sub>, -αx<sub>2</sub>).<br>
 
 b). Let T:R<sup>2</sup>&rarr;R<sup>2</sup> such that T(x, y)=(x, 0), where x, y&isin;R. Then T is linear. <br>
 #### &emsp;  Proof:
-&emsp; Let x=(x<sub>1</sub>, x<sub>2</sub>) and y=(y<sub>1</sub>, y<sub>2</sub>)&isin;R,<sup>2</sup>. Then T(x<sub>1</sub>, x<sub>2</sub>)=(x<sub>1</sub>, -x<sub>2</sub>) and
+&emsp; Let x=(x<sub>1</sub>, x<sub>2</sub>) and y=(y<sub>1</sub>, y<sub>2</sub>)&isin;R<sup>2</sup>. Then T(x<sub>1</sub>, x<sub>2</sub>)=(x<sub>1</sub>, -x<sub>2</sub>) and
 &emsp; T(y<sub>1</sub>, y<sub>2</sub>)=(y<sub>1</sub>, -y<sub>2</sub>). Notice that<br>
 &emsp;(i) T(x+y)=T[(x<sub>1</sub>, x<sub>2</sub>)+(y<sub>1</sub>, y<sub>2</sub>)]=T(x<sub>1</sub>+y<sub>1</sub>, x<sub>2</sub>+y<sub>2</sub>)=(x<sub>1</sub>+y<sub>1</sub>, 0) and T(x)+T(y)=(x<sub>1</sub>, 0)+ (y<sub>1</sub>, 0)=(x<sub>1</sub>+y<sub>1</sub>, 0). <br>
 &emsp;(ii) T(αx)=T(αx<sub>1</sub>, αx<sub>2</sub>)=(αx<sub>1</sub>, 0) and
@@ -29,7 +29,7 @@ b). Let T:R<sup>2</sup>&rarr;R<sup>2</sup> such that T(x, y)=(x, 0), where x, y&
 
 c). Let T:R<sup>2</sup>&rarr;R<sup>2</sup> such that T(x, y)=(x, 0), where x, y&isin;R. Then T is linear. <br>
 #### &emsp;  Proof:
-&emsp; Let x=(x<sub>1</sub>, x<sub>2</sub>) and y=(y<sub>1</sub>, y<sub>2</sub>)&isin;R,<sup>2</sup>. Then T(x<sub>1</sub>, x<sub>2</sub>)=(x<sub>1</sub>, -x<sub>2</sub>) and
+&emsp; Let x=(x<sub>1</sub>, x<sub>2</sub>) and y=(y<sub>1</sub>, y<sub>2</sub>)&isin;R<sup>2</sup>. Then T(x<sub>1</sub>, x<sub>2</sub>)=(x<sub>1</sub>, -x<sub>2</sub>) and
 &emsp;T(y<sub>1</sub>, y<sub>2</sub>)=(y<sub>1</sub>, -y<sub>2</sub>). Notice that<br>
 &emsp;(i) T(x+y)=T[(x<sub>1</sub>, x<sub>2</sub>)+(y<sub>1</sub>, y<sub>2</sub>)]=T(x<sub>1</sub>+y<sub>1</sub>, x<sub>2</sub>+y<sub>2</sub>)=( x<sub>2</sub>+y<sub>2</sub>, x<sub>1</sub>+y<sub>1</sub>) and
 T(x)+T(y)=(-x<sub>2</sub>, x<sub>1</sub>)+ (-y<sub>2</sub>, y<sub>1</sub>)= ( x<sub>2</sub>+y<sub>2</sub>, x<sub>1</sub>+y<sub>1</sub>).<br>
@@ -48,7 +48,7 @@ Let T:V→W be a linear map and V and W be finite dimensional vector spaces over
 B={e<sub>1</sub>, e<sub>2</sub>, …, e<sub>n</sub>} is a basis for V and let x= r<sub>1</sub>f<sub>1</sub>+r<sub>2</sub> e<sub>2</sub>+ ... +r<sub>n</sub>e<sub>n</sub>, where x&isin;V, r<sub>1</sub>, r<sub>2</sub>, …, r<sub>n</sub>&isin;R. Then T(e<sub>1</sub>), T(e<sub>2</sub>), …, T(e<sub>n</sub>) define T, by  T(x)= rT(e<sub>1</sub>)+sT(e<sub>2</sub>)+  … +tT(e<sub>n</sub>) .
 
 #### 7. Matrix associated with a linear transformation:
-Let T:R<sup>3</sup>→R<sup>2</sup> be a linear transformation. Let B<sub>1</sub>={f<sub>1</sub>, f<sub>2</sub>, f<sub>3</sub>} and B<sub>2</sub>={e<sub>1</sub>, e<sub>2</sub>}be basis of R<sup>2</sup> and R<sup>2</sup> respectively. Then T(f<sub>1</sub>)=ae<sub>1</sub>+be<sub>2</sub>, T(f<sub>2</sub>)=ce<sub>1</sub>+de<sub>2</sub> and T(f<sub>3</sub>)=ge<sub>1</sub>+he<sub>2</sub>, for some a, b, c, d, g, h&isin;R.
+Let T:R<sup>3</sup>→R<sup>2</sup> be a linear transformation. Let B<sub>1</sub>={f<sub>1</sub>, f<sub>2</sub>, f<sub>3</sub>} and B<sub>2</sub>={e<sub>1</sub>, e<sub>2</sub>} be basis of R<sup>3</sup> and R<sup>2</sup> respectively. Then T(f<sub>1</sub>)=ae<sub>1</sub>+be<sub>2</sub>, T(f<sub>2</sub>)=ce<sub>1</sub>+de<sub>2</sub> and T(f<sub>3</sub>)=ge<sub>1</sub>+he<sub>2</sub>, for some a, b, c, d, g, h&isin;R.
 
 Let A=
 
