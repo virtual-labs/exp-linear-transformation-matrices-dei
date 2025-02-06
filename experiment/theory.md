@@ -45,10 +45,10 @@ T(x)+T(y)=(-x<sub>2</sub>, x<sub>1</sub>)+ (-y<sub>2</sub>, y<sub>1</sub>)= ( x<
 
 #### 6. Proposition:
 Let T:V→W be a linear map and V and W be finite dimensional vector spaces over R and <br>
-B={e<sub>1</sub>, e<sub>2</sub>, …, e<sub>n</sub>} is a basis for V and let x= r<sub>1</sub>f<sub>1</sub>+r<sub>2</sub> e<sub>2</sub>+ ... +r<sub>n</sub>e<sub>n</sub>, where x&isin;V, r<sub>1</sub>, r<sub>2</sub>, …, r<sub>n</sub>&isin;R. Then T(e<sub>1</sub>), T(e<sub>2</sub>), …, T(e<sub>n</sub>) define T, by  T(x)= rT(e<sub>1</sub>)+sT(e<sub>2</sub>)+  … +t….T(e<sub>n</sub>) .
+B={e<sub>1</sub>, e<sub>2</sub>, …, e<sub>n</sub>} is a basis for V and let x= r<sub>1</sub>f<sub>1</sub>+r<sub>2</sub> e<sub>2</sub>+ ... +r<sub>n</sub>e<sub>n</sub>, where x&isin;V, r<sub>1</sub>, r<sub>2</sub>, …, r<sub>n</sub>&isin;R. Then T(e<sub>1</sub>), T(e<sub>2</sub>), …, T(e<sub>n</sub>) define T, by  T(x)= rT(e<sub>1</sub>)+sT(e<sub>2</sub>)+  … +tT(e<sub>n</sub>) .
 
 #### 7. Matrix associated with a linear transformation:
-Let T:R<sup>3</sup>→R<sup>2</sup> be a linear transformation. Let B<sub>1</sub>={f<sub>1</sub>, f<sub>2</sub>, f<sub>3</sub>} and B<sub>2</sub>={e<sub>1</sub>, e<sub>2</sub>}be bases of R<sup>2</sup> and R<sup>2</sup> respectively. Then T(f<sub>1</sub>)=ae<sub>1</sub>+be<sub>2</sub>, T(f<sub>2</sub>)=ce<sub>1</sub>+de<sub>2</sub> and T(f<sub>3</sub>)=ge<sub>1</sub>+he<sub>2</sub>, for some a, b, c, d, g, h&isin;R.
+Let T:R<sup>3</sup>→R<sup>2</sup> be a linear transformation. Let B<sub>1</sub>={f<sub>1</sub>, f<sub>2</sub>, f<sub>3</sub>} and B<sub>2</sub>={e<sub>1</sub>, e<sub>2</sub>}be basis of R<sup>2</sup> and R<sup>2</sup> respectively. Then T(f<sub>1</sub>)=ae<sub>1</sub>+be<sub>2</sub>, T(f<sub>2</sub>)=ce<sub>1</sub>+de<sub>2</sub> and T(f<sub>3</sub>)=ge<sub>1</sub>+he<sub>2</sub>, for some a, b, c, d, g, h&isin;R.
 
 Let A=
 
