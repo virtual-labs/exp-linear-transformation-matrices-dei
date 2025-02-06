@@ -10,7 +10,7 @@ Let M be a vector space over a field R. Then the function T:M→M defined as T(x
 Let M and N be vector spaces over a field R. Then the function T:M→N defined as T(x)=0, where x&isin;M, is linear and is known as zero transformation.
 
 #### 4. Examples:
-1. Let T: R<sup>2</sup>→R<sup>2</sup> such that T(x, y)=(x, -y), where x, y&isin;R. Then T is linear.
+a). Let T: R<sup>2</sup>→R<sup>2</sup> such that T(x, y)=(x, -y), where x, y&isin;R. Then T is linear.
 
 #### &emsp;  Proof:
 &emsp; Let x=(x<sub>1</sub>, x<sub>2</sub>)and y=(y<sub>1</sub>, y<sub>2</sub>)&isin;R,<sup>2</sup>. Then T(x<sub>1</sub>, x<sub>2</sub>)=(x<sub>1</sub>, -x<sub>2</sub>) and
@@ -19,7 +19,7 @@ T(y<sub>1</sub>, y<sub>2</sub>)=(y<sub>1</sub>, -y<sub>2</sub>). Notice that<br>
 &emsp; (ii) T(αx)=T(αx<sub>1</sub>, αx<sub>2</sub>)=(αx<sub>1</sub>, -αx<sub>2</sub>) and
 αT(x)=α(x<sub>1</sub>, -x<sub>2</sub>)=(αx<sub>1</sub>, -αx<sub>2</sub>).<br>
 
-2. Let T:R<sup>2</sup>&rarr;R<sup>2</sup> such that T(x, y)=(x, 0), where x, y&isin;R. Then T is linear. <br>
+b). Let T:R<sup>2</sup>&rarr;R<sup>2</sup> such that T(x, y)=(x, 0), where x, y&isin;R. Then T is linear. <br>
 #### &emsp;  Proof:
 &emsp; Let x=(x<sub>1</sub>, x<sub>2</sub>) and y=(y<sub>1</sub>, y<sub>2</sub>)&isin;R,<sup>2</sup>. Then T(x<sub>1</sub>, x<sub>2</sub>)=(x<sub>1</sub>, -x<sub>2</sub>) and
 &emsp; T(y<sub>1</sub>, y<sub>2</sub>)=(y<sub>1</sub>, -y<sub>2</sub>). Notice that<br>
@@ -27,7 +27,7 @@ T(y<sub>1</sub>, y<sub>2</sub>)=(y<sub>1</sub>, -y<sub>2</sub>). Notice that<br>
 &emsp;(ii) T(αx)=T(αx<sub>1</sub>, αx<sub>2</sub>)=(αx<sub>1</sub>, 0) and
 αT(x)=α(x<sub>1</sub>, 0)=(αx<sub>1</sub>, 0).<br>
 
-3. Let T:R<sup>2</sup>&rarr;R<sup>2</sup> such that T(x, y)=(x, 0), where x, y&isin;R. Then T is linear. <br>
+c). Let T:R<sup>2</sup>&rarr;R<sup>2</sup> such that T(x, y)=(x, 0), where x, y&isin;R. Then T is linear. <br>
 #### &emsp;  Proof:
 &emsp; Let x=(x<sub>1</sub>, x<sub>2</sub>) and y=(y<sub>1</sub>, y<sub>2</sub>)&isin;R,<sup>2</sup>. Then T(x<sub>1</sub>, x<sub>2</sub>)=(x<sub>1</sub>, -x<sub>2</sub>) and
 &emsp;T(y<sub>1</sub>, y<sub>2</sub>)=(y<sub>1</sub>, -y<sub>2</sub>). Notice that<br>
