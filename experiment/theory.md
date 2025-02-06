@@ -21,16 +21,14 @@ T(y<sub>1</sub>, y<sub>2</sub>)=(y<sub>1</sub>, -y<sub>2</sub>). Notice that<br>
 
 b). Let T:R<sup>2</sup>&rarr;R<sup>2</sup> such that T(x, y)=(x, 0), where x, y&isin;R. Then T is linear. <br>
 #### &emsp;  Proof:
-&emsp; Let x=(x<sub>1</sub>, x<sub>2</sub>) and y=(y<sub>1</sub>, y<sub>2</sub>)&isin;R<sup>2</sup>. Then T(x<sub>1</sub>, x<sub>2</sub>)=(x<sub>1</sub>, -x<sub>2</sub>) and
-&emsp; T(y<sub>1</sub>, y<sub>2</sub>)=(y<sub>1</sub>, -y<sub>2</sub>). Notice that<br>
+&emsp; Let x=(x<sub>1</sub>, x<sub>2</sub>) and y=(y<sub>1</sub>, y<sub>2</sub>)&isin;R<sup>2</sup>. Then T(x<sub>1</sub>, x<sub>2</sub>)=(x<sub>1</sub>, -x<sub>2</sub>) and T(y<sub>1</sub>, y<sub>2</sub>)=(y<sub>1</sub>, -y<sub>2</sub>). Notice that<br>
 &emsp;(i) T(x+y)=T[(x<sub>1</sub>, x<sub>2</sub>)+(y<sub>1</sub>, y<sub>2</sub>)]=T(x<sub>1</sub>+y<sub>1</sub>, x<sub>2</sub>+y<sub>2</sub>)=(x<sub>1</sub>+y<sub>1</sub>, 0) and T(x)+T(y)=(x<sub>1</sub>, 0)+ (y<sub>1</sub>, 0)=(x<sub>1</sub>+y<sub>1</sub>, 0). <br>
 &emsp;(ii) T(αx)=T(αx<sub>1</sub>, αx<sub>2</sub>)=(αx<sub>1</sub>, 0) and
 αT(x)=α(x<sub>1</sub>, 0)=(αx<sub>1</sub>, 0).<br>
 
 c). Let T:R<sup>2</sup>&rarr;R<sup>2</sup> such that T(x, y)=(x, 0), where x, y&isin;R. Then T is linear. <br>
 #### &emsp;  Proof:
-&emsp; Let x=(x<sub>1</sub>, x<sub>2</sub>) and y=(y<sub>1</sub>, y<sub>2</sub>)&isin;R<sup>2</sup>. Then T(x<sub>1</sub>, x<sub>2</sub>)=(x<sub>1</sub>, -x<sub>2</sub>) and
-&emsp;T(y<sub>1</sub>, y<sub>2</sub>)=(y<sub>1</sub>, -y<sub>2</sub>). Notice that<br>
+&emsp; Let x=(x<sub>1</sub>, x<sub>2</sub>) and y=(y<sub>1</sub>, y<sub>2</sub>)&isin;R<sup>2</sup>. Then T(x<sub>1</sub>, x<sub>2</sub>)=(x<sub>1</sub>, -x<sub>2</sub>) and T(y<sub>1</sub>, y<sub>2</sub>)=(y<sub>1</sub>, -y<sub>2</sub>). Notice that<br>
 &emsp;(i) T(x+y)=T[(x<sub>1</sub>, x<sub>2</sub>)+(y<sub>1</sub>, y<sub>2</sub>)]=T(x<sub>1</sub>+y<sub>1</sub>, x<sub>2</sub>+y<sub>2</sub>)=( x<sub>2</sub>+y<sub>2</sub>, x<sub>1</sub>+y<sub>1</sub>) and
 T(x)+T(y)=(-x<sub>2</sub>, x<sub>1</sub>)+ (-y<sub>2</sub>, y<sub>1</sub>)= ( x<sub>2</sub>+y<sub>2</sub>, x<sub>1</sub>+y<sub>1</sub>).<br>
 &emsp;(ii) T(αx)=T(αx<sub>1</sub>, αx<sub>2</sub>)=(αx<sub>1</sub>, -αx<sub>2</sub>) and
