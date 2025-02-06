@@ -67,7 +67,7 @@
         document.getElementById("mat").innerHTML=("\\[ \\begin{pmatrix} &alpha; \\\\ &beta; \\end{pmatrix} \\ =  \\begin{pmatrix} "+al+" \\\\ "+bt+" \\end{pmatrix} \\]");
         MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
 
-        document.getElementById('note').innerHTML="NOTE: You can observe that different bases may give different matrix w.r.t. the given linear transformation."
+        document.getElementById('note').innerHTML="NOTE: You can observe that different bases may give different matrices w.r.t. the given linear transformation."
 
         
     }
