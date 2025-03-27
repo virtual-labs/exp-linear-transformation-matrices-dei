@@ -63,11 +63,12 @@
         //document.getElementById("he").innerHTML ="\\[begin{bmatrix}"+al +"&"+bt+"\\end{bmatrix}\\]"
         //document.getElementById("matrixContainer").innerHTML = "\\((\\begin{bmatrix} al \\\\ bt \\end{bmatrix})\\)";
 
+        document.getElementById('alBt').innerHTML =" &alpha; = "+al+ " &beta; = " +bt ;
         document.getElementById('displayT1').innerHTML ="Matrix of T w.r.t. the bases B<sub>1</sub> and B<sub>2</sub> is ";
         document.getElementById("mat").innerHTML=("\\[ \\begin{pmatrix} &alpha; \\\\ &beta; \\end{pmatrix} \\ =  \\begin{pmatrix} "+al+" \\\\ "+bt+" \\end{pmatrix} \\]");
         MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
 
-        document.getElementById('note').innerHTML="NOTE: You can observe that different bases may give different matrices w.r.t. the given linear transformation."
+       
 
         
     }
