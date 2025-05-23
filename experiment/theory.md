@@ -70,7 +70,7 @@ $$\begin{pmatrix}a & c & e \\\ b & d & f\end{pmatrix}$$
 be a matrix of order 2×3. Then the linear transformation T:R<sup>3</sup>→R<sup>2</sup> associated with the matrix w.r.t. the basis B<sub>1</sub>=>={f<sub>1</sub>, f<sub>2</sub>, f<sub>3</sub>} and B<sub>2</sub>= B<sub>2</sub>={e<sub>1</sub>, e<sub>2</sub>} of R<sup>3</sup>  and R<sup>2</sup>respectively can be obtained as follows:<br>
 Define T(f<sub>1</sub>)=ae<sub>1</sub>+be<sub>2</sub>, T(f<sub>2</sub>)=ce<sub>1</sub>+de<sub>2</sub> and T(f<sub>3</sub>)=ge<sub>1</sub>+he<sub>2</sub>, where a, b, c, d, g, h&isin;R. Then for x&isin;V, there exist r, s, t&isin;R such that x=rf<sub>1</sub>+sf<sub>2</sub>+tf<sub>3</sub>. Thus define T(x)= rT(f<sub>1</sub>)+sT(f<sub>2</sub>)+tT(f<sub>3</sub>), because T has to be linear.
 
-#### 3.1. Example:  
+##### 3.1. Example:  
 Consider A=
 
 $$\begin{pmatrix}1 & -1 & 0 \\\ 0 & 1 & 1\end{pmatrix}$$
