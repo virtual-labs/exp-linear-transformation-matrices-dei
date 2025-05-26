@@ -48,17 +48,19 @@
 }
 </style>
 <body>
-    <h2 class="pagehead">Matrix associated with a Linear Transformation</h2>
+  
+    <h2 class="pagehead">Matrix Associated with a Linear Transformation</h2>
+    <a href="./" class="previous">&laquo; Previous</a>
+<a href="./lt.html" class="next" >Next &raquo;</a><br><br>
 <div class="container">
-    <p>T:R &rarr; R<sup>2</sup></p>
-    <p>T = (x, 3x); x &isin; R</p>
-    <label>B<sub>1</sub> = </label>
-    {<input class="basisinput" id="a" type="number">}<!--{a &ne; 0 ; a &isin; R}--><br>
-    <label>B<sub>2</sub> = </label>
+    <p>Consider a linear transformation T:R &rarr; R<sup>2</sup> defined by</p>
+    <p>&emsp; T = (x, 3x); x &isin; R</p>
+    <label>To find matrix associated with T w.r.t given bases of real vector spaces R and R<sup>2</sup> <br> choose <br> B<sub>1</sub> = </label>
+    {<input class="basisinput" id="a" type="number">}<!--{a &ne; 0 ; a &isin; R}--> <label> as a basis of R and <br>B<sub>2</sub> = </label>
     {(<input class="basisinput" id="c" type="number">,
     <input class="basisinput" id="d" type="number">) , 
     (<input class="basisinput" id="e" type="number">, 
-    <input class="basisinput" id="f" type="number">)}<br><br>
+    <input class="basisinput" id="f" type="number">)}<label> as a basis of R<sup>2</sup></label><br><br>
     
 
     <input class="subbtn" type="submit" value="Submit" onclick="showbasis()">
@@ -66,9 +68,10 @@
     <p id="displaybasis2"></p>
     
     <p id="displayT"></p>
+    <p id="alBt"></p>
     <p id="displayT1"></p>
     <div id="mat"></div>
-    <p id='note' style="font-size: 1rem; color:blue;"></p>
+    <p id='note' style="font-size: 1rem; color:blue;">NOTE: You can observe that different bases may give different matrices.</p>
     
     
 </div>
