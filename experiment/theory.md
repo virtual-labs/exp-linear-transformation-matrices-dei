@@ -2,13 +2,13 @@
 Let M and N be vector spaces over a field R. Then a function T:M→N is called a linear transformation if, for x, y&isin;M and α&isin;R <br>
 (i) T(x+y)=T(x)+T(y) <br>
 (ii) T(αx)=αT(x)
-
+![Linear transformaion](images/exp5image2.PNG "Linear transformaion")<br>
 ##### 1.1. Identity transformation:
 Let M be a vector space over a field R. Then the function T:M→M defined as T(x)=x, where x&isin;M, is linear and is known as identity transformation.
-
+![Identity transformaion](images/exp5image3.PNG "Identity transformaion")<br>
 ##### 1.2. Zero transformation:
 Let M and N be vector spaces over a field R. Then the function T:M→N defined as T(x)=0, where x&isin;M, is linear and is known as zero transformation.
-
+![Zero transformaion](images/exp5image1.PNG "Zero transformaion")<br>
 ##### 1.3. Examples:
 a). Let T: R<sup>2</sup>→R<sup>2</sup> such that T(x, y)=(x, -y), where x, y&isin;R. Then T is linear.
 
