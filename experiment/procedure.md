@@ -6,7 +6,7 @@
 6.	Enter the values for f1 and f2 to choose basis B1 for the domain R2 and click on “Submit” button to display it.
 7.	Enter the values for e1 and e2 to choose basis B2 for the co-domain R2 and click on “Submit” button to display it.
 8.	Click “Linear Transformation associated with matrix A” button to display the result.
-9.	 Click on “Explanation” link for the required explanation.
+9.	Click on “Explanation” link for the required explanation.
 
 
 
