@@ -8,7 +8,7 @@
 
 ### About the Experiment 
 
-Fill a brief description of this experiment here
+In this experiment, schematics have been used to explain linear transformations and their connection with matrices. Dynamic interface has been developed in simulation to make it user adaptive.
 
 <b>Name of Developer | <b> Prof. Gunjan Agrawal
 :--|:--|
