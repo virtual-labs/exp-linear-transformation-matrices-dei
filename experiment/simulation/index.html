@@ -10,297 +10,179 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/9.3.2/math.js"></script>
 
   <link rel="stylesheet" type="text/css" href="css/style1.css">
+  <link rel="stylesheet" type="text/css" href="css/shared.css">
 
 </head>
-<style>
-.next{
-    background-color: #04AA6D;
-    color: white;
-    font-size: 18px;
-    margin-top: 0.5rem;
-    align-content: center;
-    text-align: center;
-    padding: 8px 16px;
-    text-decoration: none;
-    width:8rem;
-    float:right;
-}
-.next:hover {
-  background-color: #ada;
-  color: black;
-}
-.previous{
-    display: block;
-    float:left;
-    background-color: #04AA6D;
-    color: white;
-    font-size: 18px;
-    margin-top: 0.5rem;
-    align-content: center;
-    text-align: center;
-    padding: 8px 16px;
-    text-decoration: none;
-    width:5rem;
-}
-.previous:hover {
-  background-color: #ada;
-  color: black;
-}
-.selected-btn {
-    background-color: grey !important;
-    color: white !important;
-}
-#observation{
-    background-color: rgb(184, 245, 184);
-    padding: 10px 20px;
-    margin-top: 1rem;
 
-}
-</style>
 <body>
     <h2 class="pagehead">Linear Transformations (Basic Examples)</h2>
     <a href="./matrices.html" class="next" >Next &raquo;</a>
     <p style="margin-left: 1rem;">NOTE: Consider the vector spaces R, R<sup>2</sup> over R</p>
     <div  class="responsive-three-columns">
+            <div class="case">
+                    <h3>T:V &rarr; V, where V is a vector space over R</h3>
+                    <p><strong>T(x) = 0 ; x &isin; V</strong></p>
+                    <p>
+                    <button onclick="showGeometry('geometry1', 'images/case1.png')">Click here</button> for geometry of T.
+                    </p>
+                    <img id="geometry1" src="images/cas1.2.png" alt="linear transformation">
 
-   <div class="case">
-        <h3>T:V &rarr; V, where V is a vector space over R</h3>
-        <p><strong>T(x) = 0 ; x &isin; V</strong></p>
-            <p>
-            <button onclick="showGeometry('geometry1', 'images/case1.png')">Click here</button> for geometry of T.
-            </p>
-            <img id="geometry1" src="images/cas1.2.PNG" alt="linear transformation">
+                    <!-- Question Buttons -->
+                    <p><strong>Guess: </strong><button onclick="checkAnswer1(this, true)">T is linear</button>
+                    <button onclick="checkAnswer1(this, false)">T is not linear</button>
+                    </p>
+                
+                    <!-- Correct/Incorrect will appear here -->
+                    <p class="result1"></p>
 
-        
+                    <!-- Reason (hidden at first) -->
+                    <p class="reason1" style="display:none;"><strong>Reason:</strong> By Definition.</p>
+            </div>
 
-        <!-- Question Buttons -->
-        <p><strong>Guess: </strong><button onclick="checkAnswer(this, true)">T is linear</button>
-<button onclick="checkAnswer(this, false)">T is not linear</button>
+            <div class="case">
+                    <h3>T:R &rarr; R<sup>2</sup></h3>
+                    <p><strong>T(x) = (x, 3x); x &isin; R</strong></p>
+                    <p><button onclick="showGeometry('geometry2', 'images/case2new.png')">Click here</button> for geometry of T.</p>
+                    <img id="geometry2" style="width: 24rem;" src="images/case2.1new.PNG" alt="linear transformation">
+                    <!-- Question Buttons -->
+                    <p><strong>Guess: </strong><button onclick="checkAnswer2(this, true)">T is linear</button>
+                    <button onclick="checkAnswer2(this, false)">T is not linear</button>
+                    </p>
+                
+                    <!-- Correct/Incorrect will appear here -->
+                    <p class="result2"></p>
 
-        </p>
-    
-        <!-- Correct/Incorrect will appear here -->
-        <p class="result"></p>
+                    <!-- Reason (hidden at first) -->
+                    <p class="reason2" style="display:none;"><strong>Reason:</strong> By Definition.</p>
+                    
+            </div>
 
-        <!-- Reason (hidden at first) -->
-        <p class="reason" style="display:none;"><strong>Reason:</strong> By Definition.</p>
+            <div class="case">
+                    <h3>T:R<sup>2</sup> &rarr; R<sup>2</sup></h3>
+                    <p><strong>T(x, y) = (x, 0); x, y &isin; R</strong></p>
+                    <p><button onclick="showGeometry('geometry3', 'images/case3.1.PNG')">Click here</button> for geometry of T.</p>
+                    <img id="geometry3" src="images/case3.1.1.PNG" alt="linear transformation">
+                    
+                    <!-- Question Buttons -->
+                    <p><strong>Guess: </strong><button onclick="checkAnswer3(this, true)">T is linear</button>
+                    <button onclick="checkAnswer3(this, false)">T is not linear</button>
+
+                    </p>
+                
+                    <!-- Correct/Incorrect will appear here -->
+                    <p class="result3"></p>
+
+                    <!-- Reason (hidden at first) -->
+                    <p class="reason3" style="display:none;"><strong>Reason:</strong> By Definition.</p>
+
+            </div>
+    </div>
+    <div  class="responsive-three-columns">
+            <div class="case" >
+                
+                    <h3>T:R<sup>2</sup> &rarr; R<sup>2</sup></h3>
+                    <p><strong>T(x) = (1, 1); x &isin; R</strong></p>
+                    <p><button onclick="showGeometry('geometry4', 'images/case2.1.png')">Click here</button> for geometry of T.</p>
+                    <img id="geometry4" src="images/case3.1.1.PNG" alt="linear transformation">
+
+                    <!-- Question Buttons -->
+                    <p><strong>Guess: </strong><button onclick="checkAnswer4(this, false)">T is linear</button>
+                    <button onclick="checkAnswer4(this, true)">T is not linear</button>
+
+                    </p>
+                
+                    <!-- Correct/Incorrect will appear here -->
+                    <p class="result4"></p>
+
+                    <!-- Reason (hidden at first) -->
+                    <p class="reason4" style="display:none;"><strong>Reason:</strong>[&#8757; T(0) &ne; (0, 0)]</p>
+                    
+            </div>
+            <div class="case" >
+                    <h3>T:R &rarr; R<sup>2</sup></h3>
+                    <p><strong>T(x) = (x, 3x+1); x &isin; R</strong></p>
+                    <p><button onclick="showGeometry('geometry5', 'images/case5new.png')">Click here</button> for geometry of T.</p>
+                    <img id="geometry5" src="images/case5.1new.PNG" style="width: 24rem;" alt="linear transformation">
+
+                    <!-- Question Buttons -->
+                    <p><strong>Guess: </strong><button onclick="checkAnswer5(this, false)">T is linear</button>
+                    <button onclick="checkAnswer5(this, true)">T is not linear</button>
+
+                    </p>
+                
+                    <!-- Correct/Incorrect will appear here -->
+                    <p class="result5"></p>
+
+                    <!-- Reason (hidden at first) -->
+                    <p class="reason5" style="display:none;"><strong>Reason:</strong>[&#8757; T(0) &ne; (0, 0)]</p>
+                    
+            </div>
+            <div class="case" >
+                <h3>T:R &rarr; R<sup>2</sup></h3>
+                <p><strong>T(x) = (x, x<sup>2</sup>); x &isin; R</strong></p>
+                    <p><button onclick="showGeometry('geometry6', 'images/case6new.png')">Click here</button> for geometry of T.</p>
+                    <img id="geometry6" src="images/case6.1new.PNG" style="width: 23rem;" alt="linear transformation">
+
+                    <!-- Question Buttons -->
+                    <p><strong>Guess: </strong><button onclick="checkAnswer6(this, false)">T is linear</button>
+                    <button onclick="checkAnswer6(this, true)">T is not linear</button>
+
+                    </p>
+                
+                    <!-- Correct/Incorrect will appear here -->
+                    <p class="result6"></p>
+
+                    <!-- Reason (hidden at first) -->
+                    <p class="reason6" style="display:none;"><strong>Reason:</strong> [T(1+2) = T(3) = (3, 9) <br> and&emsp;&emsp; T(1)+T(2) = (1, 1)+(2, 4) =(3, 5) <br>&rArr;&emsp;&emsp;&emsp;T(1+2) &ne; T(1)+T(2) </p>
+                    
+            </div>
     </div>
 
-    <div class="case">
-       <h3>T:R &rarr; R<sup>2</sup></h3>
-        <p><strong>T(x) = (x, 3x); x &isin; R</strong></p>
-        <p><button onclick="showGeometry('geometry2', 'images/case2new.png')">Click here</button> for geometry of T.</p>
-        <img id="geometry2" style="width: 26rem;" src="images/case2.1new.PNG" alt="linear transformation">
-         <!-- Question Buttons -->
-        <p><strong>Guess: </strong><button onclick="checkAnswer(this, true)">T is linear</button>
-<button onclick="checkAnswer(this, false)">T is not linear</button>
-
-        </p>
-    
-        <!-- Correct/Incorrect will appear here -->
-        <p class="result"></p>
-
-        <!-- Reason (hidden at first) -->
-        <p class="reason" style="display:none;"><strong>Reason:</strong> By Definition.</p>
-        
-         
-    </div>
-    <div class="case">
-        <h3>T:R<sup>2</sup> &rarr; R<sup>2</sup></h3>
-        <p><strong>T(x, y) = (x, 0); x, y &isin; R</strong></p>
-         <p><button onclick="showGeometry('geometry3', 'images/case3.1.PNG')">Click here</button> for geometry of T.</p>
-        <img id="geometry3" src="images/case3.1.1.PNG" alt="linear transformation">
-        
-         <!-- Question Buttons -->
-        <p><strong>Guess: </strong><button onclick="checkAnswer(this, true)">T is linear</button>
-        <button onclick="checkAnswer(this, false)">T is not linear</button>
-
-        </p>
-    
-        <!-- Correct/Incorrect will appear here -->
-        <p class="result"></p>
-
-        <!-- Reason (hidden at first) -->
-        <p class="reason" style="display:none;"><strong>Reason:</strong> By Definition.</p>
-
-    </div>
-</div>
-<div  class="responsive-three-columns">
-    <div class="case" >
-        
-         <h3>T:R<sup>2</sup> &rarr; R<sup>2</sup></h3>
-        <p><strong>T(x) = (1, 1); x &isin; R</strong></p>
-         <p><button onclick="showGeometry('geometry4', 'images/case2.1.png')">Click here</button> for geometry of T.</p>
-        <img id="geometry4" src="images/case3.1.1.PNG" alt="linear transformation">
-
-         <!-- Question Buttons -->
-        <p><strong>Guess: </strong><button onclick="checkAnswer(this, false)">T is linear</button>
-        <button onclick="checkAnswer(this, true)">T is not linear</button>
-
-        </p>
-    
-        <!-- Correct/Incorrect will appear here -->
-        <p class="result"></p>
-
-        <!-- Reason (hidden at first) -->
-        <p class="reason" style="display:none;"><strong>Reason:</strong>[&#8757; T(0) &ne; (0, 0)]</p>
-        
-        
-         
-    </div>
-    <div class="case" >
-        <h3>T:R &rarr; R<sup>2</sup></h3>
-        <p><strong>T(x) = (x, 3x+1); x &isin; R</strong></p>
-         <p><button onclick="showGeometry('geometry5', 'images/case5new.png')">Click here</button> for geometry of T.</p>
-        <img id="geometry5" src="images/case5.1new.PNG" style="width: 26rem;" alt="linear transformation">
-
-        <!-- Question Buttons -->
-        <p><strong>Guess: </strong><button onclick="checkAnswer(this, false)">T is linear</button>
-        <button onclick="checkAnswer(this, true)">T is not linear</button>
-
-        </p>
-    
-        <!-- Correct/Incorrect will appear here -->
-        <p class="result"></p>
-
-        <!-- Reason (hidden at first) -->
-        <p class="reason" style="display:none;"><strong>Reason:</strong>[&#8757; T(0) &ne; (0, 0)]</p>
-
-         
-    </div>
-    <div class="case" >
-        <h3>T:R &rarr; R<sup>2</sup></h3>
-        <p><strong>T(x) = (x, x<sup>2</sup>); x &isin; R</strong></p>
-        <p><button onclick="showGeometry('geometry6', 'images/case6new.png')">Click here</button> for geometry of T.</p>
-        <img id="geometry6" src="images/case6.1new.PNG" style="width: 26rem;" alt="linear transformation">
-
-         <!-- Question Buttons -->
-        <p><strong>Guess: </strong><button onclick="checkAnswer(this, false)">T is linear</button>
-        <button onclick="checkAnswer(this, true)">T is not linear</button>
-
-        </p>
-    
-        <!-- Correct/Incorrect will appear here -->
-        <p class="result"></p>
-
-        <!-- Reason (hidden at first) -->
-        <p class="reason" style="display:none;"><strong>Reason:</strong> [T(1+2) = T(3) = (3, 9) <br> and&emsp;&emsp; T(1)+T(2) = (1, 1)+(2, 4) =(3, 5) <br>&rArr;&emsp;&emsp;&emsp;T(1+2) &ne; T(1)+T(2) </p>
-        
-         
-    </div>
-</div>
-
-<div id="observation">
+    <div id="observation">
         <h2>Observation:</h2>
-<p style="font-size: 1.5rem;">
-    If T: R &rarr; R<sup>2</sup> or T: R<sup>2</sup> &rarr; R<sup>2</sup> is linear, then Range T (i.e. Image T) = <br>
+             <p style="font-size: 1.5rem;">
+                If T: R &rarr; R<sup>2</sup> or T: R<sup>2</sup> &rarr; R<sup>2</sup> is linear, then Range T (i.e. Image T) = <br>
 
-<select id="opt1" style="font-size: 1.1rem;">
-    <option value="">-- Select --</option>
-    <option value="{0,0}">{(0,0)}</option>
-    <option value="anyline">A straight line</option>
-    <option value="Elipse">Elipse</option>
-    <option value="line">A straight line passing through origin</option>
-    <option value="R2">R<sup>2</sup></option>
-</select>
-or
-<select id="opt2" style="font-size: 1.1rem;">
-    <option value="">-- Select --</option>
-<option value="{0,0}">{(0,0)}</option>
-    <option value="anyline">A straight line</option>
-    <option value="Elipse">Elipse</option>
-    <option value="line">A straight line passing through origin</option>
-    <option value="R2">R<sup>2</sup></option>
-</select>
-or
-<select id="opt3" style="font-size: 1.1rem;">
-    <option value="">-- Select --</option>
-   <option value="{0,0}">{(0,0)}</option>
-    <option value="anyline">A straight line</option>
-    <option value="Elipse">Elipse</option>
-    <option value="line">A straight line passing through origin</option>
-    <option value="R2">R<sup>2</sup></option>
-</select>
+                <select id="opt1" style="font-size: 1.1rem;">
+                    <option value="">-- Select --</option>
+                    <option value="{0,0}">{(0,0)}</option>
+                    <option value="anyline">A straight line</option>
+                    <option value="Elipse">Elipse</option>
+                    <option value="line">A straight line passing through origin</option>
+                    <option value="R2">R<sup>2</sup></option>
+                </select>
+                or
+                <select id="opt2" style="font-size: 1.1rem;">
+                    <option value="">-- Select --</option>
+                <option value="{0,0}">{(0,0)}</option>
+                    <option value="anyline">A straight line</option>
+                    <option value="Elipse">Elipse</option>
+                    <option value="line">A straight line passing through origin</option>
+                    <option value="R2">R<sup>2</sup></option>
+                </select>
+                or
+                <select id="opt3" style="font-size: 1.1rem;">
+                    <option value="">-- Select --</option>
+                <option value="{0,0}">{(0,0)}</option>
+                    <option value="anyline">A straight line</option>
+                    <option value="Elipse">Elipse</option>
+                    <option value="line">A straight line passing through origin</option>
+                    <option value="R2">R<sup>2</sup></option>
+                </select>
 
-</p>
+                </p>
 
-<button onclick="checkAnswer()">Submit</button>
+    <button onclick="checkAnswer()">Submit</button>
 
-<div id="result" class="result"></div>
-</div>
+    <div id="result" class="result"></div>
+    </div>
 
 <p style="float:center; align-content:right;">
     <a href="./matrices.html" class="next" >Next &raquo;</a>
-</p><br>
+</p>
 </body>
 
 <script src="js/js1.js"></script>
-<script>
-function checkAnswer(button, correctAnswer) {
-    const caseDiv = button.closest('.case');
-    const resultEl = caseDiv.querySelector('.result');
-    const reasonEl = caseDiv.querySelector('.reason');
-
-    // Remove 'selected-btn' from both buttons in this case
-    caseDiv.querySelectorAll('button').forEach(btn => btn.classList.remove('selected-btn'));
-
-    // Add grey highlight to the clicked button
-    button.classList.add('selected-btn');
-
-    // Show Correct/Incorrect
-    if (correctAnswer) {
-        resultEl.innerHTML = "✅ Correct";
-        resultEl.style.color = "green";
-    } else {
-        resultEl.innerHTML = "❌ Incorrect";
-        resultEl.style.color = "red";
-    }
-
-    // Show reason
-    reasonEl.style.display = "block";
-}
-</script>
-<script>
-function showGeometry(imgId, newSrc) {
-    document.getElementById(imgId).src = newSrc;
-}
-</script>
-
-<script>
-    function checkAnswer() {
-        const correctAnswers = ["{0,0}", "line", "R2"]; // correct answers
-        const userAnswers = [
-            document.getElementById("opt1").value,
-            document.getElementById("opt2").value,
-            document.getElementById("opt3").value
-        ];
-
-        const resultDiv = document.getElementById("result");
-
-        // If any dropdown is empty
-        if (userAnswers.includes("")) {
-            resultDiv.innerHTML = "⚠ Please select all options.";
-            resultDiv.className = "result incorrect";
-            return;
-        }
-
-        // Check if user selected exactly the same set as correctAnswers
-        const isCorrect =
-            userAnswers.length === correctAnswers.length &&
-            correctAnswers.every(ans => userAnswers.includes(ans));
-
-        if (isCorrect) {
-            resultDiv.innerHTML = "✅ Correct!.";
-            resultDiv.className = "result correct";
-        } else {
-            resultDiv.innerHTML = `❌ Incorrect! The correct answer is:<br>A line passing through origin or {(0,0)} or R<sup>2</sup>.`;
-            resultDiv.className = "result incorrect";
-        }
-    }
-</script>
-
-
-
 
 </html>
 
