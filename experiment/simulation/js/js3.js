@@ -58,7 +58,7 @@
                 return false
             }
         }
-        document.getElementById("displayb1").innerHTML="B<sub>1</sub> = {("+f11val+", "+f12val+"), ("+f21val+", "+f22val+")}";
+        document.getElementById("displayb1").innerHTML="<i>B</i><sub>1</sub> = {("+f11val+", "+f12val+"), ("+f21val+", "+f22val+")}";
     }
     function sbmtb2(){
         var e11val=parseFloat(document.getElementById('e11').value);
@@ -96,7 +96,7 @@
             }
         }
 
-        document.getElementById("displayb2").innerHTML="B<sub>2</sub> = {("+e11val+", "+e12val+"), ("+e21val+", "+e22val+")}";
+        document.getElementById("displayb2").innerHTML="<i>B</i><sub>2</sub> = {("+e11val+", "+e12val+"), ("+e21val+", "+e22val+")}";
     }
     
     function ltdetails(){
@@ -171,7 +171,7 @@
         var tf2val1=(bval*e11val)+(dval*e21val);
         var tf2val2=(bval*e12val)+(dval*e22val);
 
-        document.getElementById('lt').innerHTML="T(x) = ("+tf1val1+"x<sub>1</sub> + "+tf2val1+"x<sub>2</sub> , "+tf1val2+"x<sub>1</sub> + "+tf2val2+"x<sub>2</sub>)";
+        document.getElementById('lt').innerHTML="<i>T</i>(<i>x</i>) = ("+tf1val1+"<i>x</i><sub>1</sub> + "+tf2val1+"<i>x</i><sub>2</sub> , "+tf1val2+"<i>x</i><sub>1</sub> + "+tf2val2+"<i>x</i><sub>2</sub>)";
         
         
     }
@@ -195,19 +195,19 @@
         var tf2val1=(bval*e11val)+(dval*e21val);
         var tf2val2=(bval*e12val)+(dval*e22val);
 
-        document.getElementById('x1x2').innerHTML="<ul><li>Let x &equiv; (x<sub>1</sub>, x<sub>2</sub>) &isin; R<sup>2</sup> & let x = x<sub>1</sub>f<sub>1</sub> + x<sub>2</sub>f<sub>2</sub></li></ul>";
+        document.getElementById('x1x2').innerHTML="<ul><li>Let <i>x<i> &equiv; (<i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>) &isin; <i>R</i><sup>2</sup> & let <i>x</i> = <i>x</i><sub>1</sub><i>f</i><sub>1</sub> + <i>x</i><sub>2</sub><i>f</i><sub>2</sub></li></ul>";
 
-        document.getElementById('tx').innerHTML="<ul><li>So that T(x) = x<sub>1</sub>T(f<sub>1</sub>) + x<sub>2</sub>T(f<sub>2</sub>)</li></ul>";
+        document.getElementById('tx').innerHTML="<ul><li>So that <i>T</i>(<i>x</i>) = <i>x</i><sub>1</sub><i>T</i>(<i>f</i><sub>1</sub>) + <i>x</i><sub>2</sub><i>T</i>(<i>f</i><sub>2</sub>)</li></ul>";
         
 
-        document.getElementById('tf1').innerHTML="<ul><li>Defining T(f<sub>1</sub>) = ae<sub>1</sub> + ce<sub>2</sub> = T("+f11val+" , "+f12val+") = "+aval+"("+e11val+" , "+e12val+") + "+cval+"("+e21val+" , "+e22val+")</li></ul>";
-        document.getElementById('tf2').innerHTML="&ensp; &nbsp;&ensp; and T(f<sub>2</sub>) = be<sub>1</sub> + de<sub>2</sub> = T("+f21val+" , "+f22val+") = "+bval+"("+e11val+" , "+e12val+") + "+dval+"("+e21val+" , "+e22val+")";
+        document.getElementById('tf1').innerHTML="<ul><li>Defining <i>T</i>(<i>f</i><sub>1</sub>) = <i>ae</i><sub>1</sub> + <i>ce</i><sub>2</sub> = <i>T</i>("+f11val+" , "+f12val+") = "+aval+"("+e11val+" , "+e12val+") + "+cval+"("+e21val+" , "+e22val+")</li></ul>";
+        document.getElementById('tf2').innerHTML="&ensp; &nbsp;&ensp; and <i>T</i>(<i>f</i><sub>2</sub>) = <i>be</i><sub>1</sub> + <i>de</i><sub>2</sub> = <i>T</i>("+f21val+" , "+f22val+") = "+bval+"("+e11val+" , "+e12val+") + "+dval+"("+e21val+" , "+e22val+")";
        
         var tf1val1=(aval*e11val)+(cval*e21val);
         var tf1val2=(aval*e12val)+(cval*e22val);
         var tf2val1=(bval*e11val)+(dval*e21val);
         var tf2val2=(bval*e12val)+(dval*e22val);
 
-        document.getElementById('tx1').innerHTML="<ul><li>T(x) = x<sub>1</sub>("+tf1val1+" , "+tf1val2+") + x<sub>2</sub>("+tf2val1+" , "+tf2val2+")</li></ul>";
+        document.getElementById('tx1').innerHTML="<ul><li><i>T</i>(<i>x</i>) = <i>x</i><sub>1</sub>("+tf1val1+" , "+tf1val2+") + <i>x</i><sub>2</sub>("+tf2val1+" , "+tf2val2+")</li></ul>";
 
     }

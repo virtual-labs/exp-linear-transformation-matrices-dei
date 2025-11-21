@@ -49,9 +49,9 @@
             }
         }
 
-        document.getElementById('displaybasis1').innerHTML = "<li>B<sub>1</sub> = {"+ba+"}, B<sub>2</sub> = {("+bc +"," +bd +"), (" +be +"," +bf+")}</li>";
+        document.getElementById('displaybasis1').innerHTML = "<li><i>B</i><sub>1</sub> = {"+ba+"}, <i>B</i><sub>2</sub> = {("+bc +"," +bd +"), (" +be +"," +bf+")}</li>";
         // document.getElementById('displaybasis2').innerHTML = "";
-        document.getElementById('displayT').innerHTML = "<li>T("+ba+") = ("+ba+", "+(3*ba)+") = &alpha;("+bc+", "+bd+") + &beta;("+be+", "+bf+")</li>";
+        document.getElementById('displayT').innerHTML = "<li><i>T</i>("+ba+") = ("+ba+", "+(3*ba)+") = &alpha;("+bc+", "+bd+") + &beta;("+be+", "+bf+")</li>";
         //document.getElementById('displayT1').innerHTML = "("+ba+", "+(3*ba)+") = &alpha;("+bc+", "+bd+") + &beta;("+be+", "+bf+")";
         
 
@@ -64,7 +64,7 @@
         //document.getElementById("matrixContainer").innerHTML = "\\((\\begin{bmatrix} al \\\\ bt \\end{bmatrix})\\)";
 
         document.getElementById('alBt').innerHTML =" &emsp; &rArr; &alpha; = "+al+ ", &beta; = " +bt ;
-        document.getElementById('displayT1').innerHTML ="<li>Matrix of T w.r.t. the bases B<sub>1</sub> and B<sub>2</sub> = </li> ";
+        document.getElementById('displayT1').innerHTML ="<li>Matrix of <i>T</i> w.r.t. the bases <i>B</i><sub>1</sub> and <i>B</i><sub>2</sub> = </li> ";
         document.getElementById("mat").innerHTML=("\\[ \\begin{pmatrix} &alpha; \\\\ &beta; \\end{pmatrix} \\ =  \\begin{pmatrix} "+al+" \\\\ "+bt+" \\end{pmatrix} \\]");
         MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
 

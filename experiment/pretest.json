@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "Consider the vector space R<sup>3</sup> over R. The co-ordinates of (1, 2, 3)&isin;R<sup>3</sup> w.r.t. basis {(1, 0, 1), (0, 1, 1), (1, 1, 0)} of R<sup>3</sup> are:",
+      "question": "Consider the vector space $R$<sup>3</sup> over $R$. The co-ordinates of (1, 2, 3)&isin;$R$<sup>3</sup> w.r.t. basis {(1, 0, 1), (0, 1, 1), (1, 1, 0)} of $R$<sup>3</sup> are:",
       "answers": {
         "a": "-1, 2 & 0",
         "b": "1, 2 & 3",
@@ -10,27 +10,27 @@
         "d": "0, 2 & -3"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect by definition",
+        "b": "Incorrect by definition",
+        "c": "Correct by definition",
+        "d": "Incorrect by definition"
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
-      "question": "Consider the vector space R<sup>3</sup> over R. Then which of the following is true?",
+      "question": "Consider the vector space $R$<sup>3</sup> over $R$. Then which of the following is true?",
       "answers": {
-        "a": "{(1, 0, 1), (2, -1, 0)} spans R<sup>3</sup> and is its basis.",
-        "b": "{(1, 0, 0), (0, 0, -2), (2, 0, 0), (-1, 0, 0)} spans R<sup>3</sup> and is its basis.",
-        "c": "{(1, 0, -1), (2, -2, -1), (0, 0, 0)} spans R<sup>3</sup> with and is its basis.",
-        "d": "{(1, 0, 0), (0, 1, -1), (2, 0, -3)} spans R<sup>3</sup> with and is its basis."
+        "a": "{(1, 0, 1), (2, -1, 0)} spans $R$<sup>3</sup> and is its basis.",
+        "b": "{(1, 0, 0), (0, 0, -2), (2, 0, 0), (-1, 0, 0)} spans $R$<sup>3</sup> and is its basis.",
+        "c": "{(1, 0, -1), (2, -2, -1), (0, 0, 0)} spans $R$<sup>3</sup> with and is its basis.",
+        "d": "{(1, 0, 0), (0, 1, -1), (2, 0, -3)} spans $R$<sup>3</sup> with and is its basis."
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect by definition",
+        "b": "Incorrect by definition",
+        "c": "Incorrect by definition",
+        "d": "Correct by definition"
       },
       "correctAnswer": "d",
       "difficulty": "beginner"
@@ -44,16 +44,16 @@
         "d": "2x3"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect by definition",
+        "b": "Correct by definition",
+        "c": "Incorrect by definition",
+        "d": "Incorrect by definition"
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "Let T: R<sup>2</sup>&rarr;R<sup>3</sup> be a map. Then <br>A: T(0, 0)=(0, 0, 0) <br>B: T(-1, 2)=-T(1, 2)",
+      "question": "Let $T:$ $R$<sup>2</sup>&rarr;$R$<sup>3</sup> be a map. Then <br>A: $T$(0, 0)=(0, 0, 0) <br>B: $T$(-1, 2)=-$T$(1, 2)",
       "answers": {
         "a": "A is true, B is false",
         "b": "A is true, B is true",
@@ -61,16 +61,16 @@
         "d": "A is false, B is false"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect by definition",
+        "b": "Incorrect by definition",
+        "c": "Incorrect by definition",
+        "d": "Correct by definition"
       },
       "correctAnswer": "d",
       "difficulty": "beginner"
     },
     {
-      "question": "Consider the vector space R<sup>3</sup> over R. Let <br>A: Zero of the vector space is 0. <br>B: Additive inverse of (2, 3, 4)&isin;R<sup>3</sup> is 1/2, 1/3, 1/4",
+      "question": "Consider the vector space $R$<sup>3</sup> over $R$. Let <br>A: Zero of the vector space is 0. <br>B: Additive inverse of (2, 3, 4)&isin;$R$<sup>3</sup> is 1/2, 1/3, 1/4",
       "answers": {
         "a": "A is true, B is false",
         "b": "A is true, B is true",
@@ -78,10 +78,10 @@
         "d": "A is false, B is false"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect by definition",
+        "b": "Incorrect by definition",
+        "c": "Incorrect by definition",
+        "d": "Correct by definition"
       },
       "correctAnswer": "d",
       "difficulty": "beginner"
