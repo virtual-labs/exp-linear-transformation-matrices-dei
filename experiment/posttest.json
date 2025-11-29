@@ -51,7 +51,7 @@
       "correctAnswer": "a",
       "difficulty": "beginner"
     },{
-      "question": "Let $T:R$<sup>2</sup>&rarr;$R$<sup>3</sup> be the linear transformation defined by $T(x,$ $y)=(x,$ $-y,$ 0), where $x,$ $y,$ $zv&isin;$R$. Then the null space of $T$ is?",
+      "question": "Let $T:R$<sup>2</sup>&rarr;$R$<sup>3</sup> be the linear transformation defined by $T(x,$ $y)=(x,$ $-y,$ 0), where $x,$ $y,$ $z$&isin;$R$. Then the null space of $T$ is?",
       "answers": {
         "a": "{(0, 0, &gamma;): &gamma; &isin; $R$}",
         "b": "{(&alpha;, &beta;, 0): &alpha;, &beta; &isin; $R$}",
