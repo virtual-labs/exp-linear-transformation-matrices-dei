@@ -1,36 +1,36 @@
 This experiment helps students understand what a linear transformation is and how it is related to matrices. The experiment shows that every linear transformation can be written using a matrix and vice-versa, which makes it easier to work with. By doing this, students learn how matrices can be used to represent and apply transformations in a simple and clear way.
 #### 1. Linear transformation:
-Let $ M $ and $ N $ be vector spaces over a field $R$. Then a function T:M→N is called a linear transformation if, for x, y&isin;M and α&isin;R <br>
-(i) T(x+y)=T(x)+T(y) <br>
-(ii) T(αx)=αT(x)
+Let $ M $ and $ N $ be vector spaces over a field $R$. Then a function $T:M→N$ is called a linear transformation if, for $x, y \in M$ and $ \in R$ <br>
+(i) $T(x+y)=T(x)+T(y)$ <br>
+(ii) $T(αx)=αT(x)$
 
 ![Linear transformaion](images/exp5image1.PNG "Linear transformaion")<br>
 ##### 1.1. Identity transformation:
-Let M be a vector space over a field R. Then the function T:M→M defined as T(x)=x, where x&isin;M, is linear and is known as identity transformation.
+Let $M$ be a vector space over a field $R$. Then the function $T:M→M$ defined as $T(x)=x$, where $x \in M$, is linear and is known as identity transformation.
 
 ![Identity transformaion](images/exp5image3.PNG "Identity transformaion")<br>
 ##### 1.2. Zero transformation:
-Let M and N be vector spaces over a field R. Then the function T:M→N defined as T(x)=0, where x&isin;M, is linear and is known as zero transformation.
+Let $M$ and $N$ be vector spaces over a field $R$. Then the function $T:M→N$ defined as $T(x)=0$, where $x \in M$, is linear and is known as zero transformation.
 
 ![Zero transformaion](images/exp5image2.PNG "Zero transformaion")<br>
 ##### 1.3. Examples:
-a). Let T: R<sup>2</sup>→R<sup>2</sup> such that T(x, y)=(x, -y), where x, y&isin;R. Then T is linear.
+a). Let $T: R^{2}→R^{2}$ such that $T(x, y)=(x, -y)$, where $x, y \in R$. Then $T$ is linear.
 
 #### &emsp;  Proof:
-&emsp; Let x=(x<sub>1</sub>, x<sub>2</sub>)and y=(y<sub>1</sub>, y<sub>2</sub>)&isin;R<sup>2</sup>. Then T(x<sub>1</sub>, x<sub>2</sub>)=(x<sub>1</sub>, -x<sub>2</sub>) and
-T(y<sub>1</sub>, y<sub>2</sub>)=(y<sub>1</sub>, -y<sub>2</sub>). Notice that<br>
-&emsp; (i)T(x+y)=T[(x<sub>1</sub>, x<sub>2</sub>)+(y<sub>1</sub>, y<sub>2</sub>)]=T(x<sub>1</sub>+y<sub>1</sub>, x<sub>2</sub>+y<sub>2</sub>)=(x<sub>1</sub>+y<sub>1</sub>, -( x<sub>2</sub>+y<sub>2</sub>)) and T(x)+T(y)=(x<sub>1</sub>, -x<sub>2</sub>)+ (y<sub>1</sub>, -y<sub>2</sub>)= (x<sub>1</sub>+y<sub>1</sub>, -( x<sub>2</sub>+y<sub>2</sub>).<br>
-&emsp; (ii) T(αx)=T(αx<sub>1</sub>, αx<sub>2</sub>)=(αx<sub>1</sub>, -αx<sub>2</sub>) and
-αT(x)=α(x<sub>1</sub>, -x<sub>2</sub>)=(αx<sub>1</sub>, -αx<sub>2</sub>).<br>
+&emsp; Let $x=(x_{1}, x_{2})$ and $y=(y_{1}, y_{2}) \in R^{2}.$ Then $T(x_{1}, x_{2})=(x_{1}, -x_{2})$ and
+$T(y_{1}, y_{2})=(y_{1}, -y_{2})$. Notice that<br>
+&emsp; (i) $T(x+y)=T[(x_{1}, x_{2}>)+(y_{1}, y_{2})]=T(x_{1}+y_{1}, x_{2}+y_{2})=(x_{1}+y_{1}, -(x_{2}+y_{2}))$ and $T(x)+T(y)=(x_{1}, -x_{2})+ (y_{1}, -y_{2})= (x_{1}+y_{1}, -(x_{2}+y_{2})).$ <br>
+&emsp; (ii) $T(αx)=T(αx_{1}, αx_{2})=(αx_{1}, -αx_{2})$ and
+$αT(x)=α(x_{1}, -x_{2})=(αx_{1}, -αx_{2}).$ <br>
 
-b). Let T:R<sup>2</sup>&rarr;R<sup>2</sup> such that T(x, y)=(x, 0), where x, y&isin;R. Then T is linear. <br>
+b). Let $T:R^{2}$ &rarr; $R^{2}$ such that $T(x, y)=(x, 0),$ where $x, y \in R.$ Then $T$ is linear. <br>
 #### &emsp;  Proof:
-&emsp; Let x=(x<sub>1</sub>, x<sub>2</sub>) and y=(y<sub>1</sub>, y<sub>2</sub>)&isin;R<sup>2</sup>. Then T(x<sub>1</sub>, x<sub>2</sub>)=(x<sub>1</sub>, -x<sub>2</sub>) and T(y<sub>1</sub>, y<sub>2</sub>)=(y<sub>1</sub>, -y<sub>2</sub>). Notice that<br>
-&emsp;(i) T(x+y)=T[(x<sub>1</sub>, x<sub>2</sub>)+(y<sub>1</sub>, y<sub>2</sub>)]=T(x<sub>1</sub>+y<sub>1</sub>, x<sub>2</sub>+y<sub>2</sub>)=(x<sub>1</sub>+y<sub>1</sub>, 0) and T(x)+T(y)=(x<sub>1</sub>, 0)+ (y<sub>1</sub>, 0)=(x<sub>1</sub>+y<sub>1</sub>, 0). <br>
-&emsp;(ii) T(αx)=T(αx<sub>1</sub>, αx<sub>2</sub>)=(αx<sub>1</sub>, 0) and
-αT(x)=α(x<sub>1</sub>, 0)=(αx<sub>1</sub>, 0).<br>
+&emsp; Let $x=(x_{1}, x_{2})$ and $y=(y_{1}, y_{2}) \in R^{2}$. Then $T(x_{1}, x_{2})=(x_{1}, -x_{2})$ and $T(y_{1}, y_{2})=(y_{1}, -y_{2}).$ Notice that<br>
+&emsp;(i) $T(x+y)=T[(x_{1}, x_{2})+(y_{1}, y_{2})]=T(x_{1}+y_{1}, x_{2}+y_{2})=(x_{1}+y_{1}, 0)$ and $T(x)+T(y)=(x_{1}, 0)+ (y_{1}, 0)=(x_{1}+y_{1}, 0).$ <br>
+&emsp;(ii) $T(αx)=T(αx_{1}, αx_{2})=(αx_{1}, 0)$ and
+$αT(x)=α(x_{1}, 0)=(αx_{1}, 0).$ <br>
 
-c). Let T:R<sup>2</sup>&rarr;R<sup>2</sup> such that T(x, y)=(x, 0), where x, y&isin;R. Then T is linear. <br>
+c). Let $T:R^{2}$ &rarr; $R^{2}$ such that $T(x, y)=(x, 0),$ where $x, y \in R.$ Then $T$ is linear. <br>
 #### &emsp;  Proof:
 &emsp; Let x=(x<sub>1</sub>, x<sub>2</sub>) and y=(y<sub>1</sub>, y<sub>2</sub>)&isin;R<sup>2</sup>. Then T(x<sub>1</sub>, x<sub>2</sub>)=(x<sub>1</sub>, -x<sub>2</sub>) and T(y<sub>1</sub>, y<sub>2</sub>)=(y<sub>1</sub>, -y<sub>2</sub>). Notice that<br>
 &emsp;(i) T(x+y)=T[(x<sub>1</sub>, x<sub>2</sub>)+(y<sub>1</sub>, y<sub>2</sub>)]=T(x<sub>1</sub>+y<sub>1</sub>, x<sub>2</sub>+y<sub>2</sub>)=( x<sub>2</sub>+y<sub>2</sub>, x<sub>1</sub>+y<sub>1</sub>) and
