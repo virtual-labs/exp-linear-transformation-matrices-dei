@@ -16,26 +16,26 @@ Let $M$ and $N$ be vector spaces over a field $R$. Then the function $T:M→N$ d
 ##### 1.3. Examples:
 a). Let $T: R^{2}→R^{2}$ such that $T(x, y)=(x, -y)$, where $x, y \in R$. Then $T$ is linear.
 
-#### &emsp;  Proof:
-&emsp; Let $x=(x_{1}, x_{2})$ and $y=(y_{1}, y_{2}) \in R^{2}.$ Then $T(x_{1}, x_{2})=(x_{1}, -x_{2})$ and
+#### Proof:
+Let $x=(x_{1}, x_{2})$ and $y=(y_{1}, y_{2}) \in R^{2}.$ Then $T(x_{1}, x_{2})=(x_{1}, -x_{2})$ and
 $T(y_{1}, y_{2})=(y_{1}, -y_{2})$. Notice that<br>
-&emsp; (i) $T(x+y)=T[(x_{1}, x_{2}>)+(y_{1}, y_{2})]=T(x_{1}+y_{1}, x_{2}+y_{2})=(x_{1}+y_{1}, -(x_{2}+y_{2}))$ and $T(x)+T(y)=(x_{1}, -x_{2})+ (y_{1}, -y_{2})= (x_{1}+y_{1}, -(x_{2}+y_{2})).$ <br>
-&emsp; (ii) $T(αx)=T(αx_{1}, αx_{2})=(αx_{1}, -αx_{2})$ and
+(i) $T(x+y)=T[(x_{1}, x_{2}>)+(y_{1}, y_{2})]=T(x_{1}+y_{1}, x_{2}+y_{2})=(x_{1}+y_{1}, -(x_{2}+y_{2}))$ and $T(x)+T(y)=(x_{1}, -x_{2})+ (y_{1}, -y_{2})= (x_{1}+y_{1}, -(x_{2}+y_{2})).$ <br>
+(ii) $T(αx)=T(αx_{1}, αx_{2})=(αx_{1}, -αx_{2})$ and
 $αT(x)=α(x_{1}, -x_{2})=(αx_{1}, -αx_{2}).$ <br>
 
 b). Let $T:R^{2}$ &rarr; $R^{2}$ such that $T(x, y)=(x, 0),$ where $x, y \in R.$ Then $T$ is linear. <br>
-#### &emsp;  Proof:
-&emsp; Let $x=(x_{1}, x_{2})$ and $y=(y_{1}, y_{2}) \in R^{2}$. Then $T(x_{1}, x_{2})=(x_{1}, -x_{2})$ and $T(y_{1}, y_{2})=(y_{1}, -y_{2}).$ Notice that<br>
-&emsp;(i) $T(x+y)=T[(x_{1}, x_{2})+(y_{1}, y_{2})]=T(x_{1}+y_{1}, x_{2}+y_{2})=(x_{1}+y_{1}, 0)$ and $T(x)+T(y)=(x_{1}, 0)+ (y_{1}, 0)=(x_{1}+y_{1}, 0).$ <br>
-&emsp;(ii) $T(αx)=T(αx_{1}, αx_{2})=(αx_{1}, 0)$ and
+#### Proof:
+Let $x=(x_{1}, x_{2})$ and $y=(y_{1}, y_{2}) \in R^{2}$. Then $T(x_{1}, x_{2})=(x_{1}, -x_{2})$ and $T(y_{1}, y_{2})=(y_{1}, -y_{2}).$ Notice that<br>
+(i) $T(x+y)=T[(x_{1}, x_{2})+(y_{1}, y_{2})]=T(x_{1}+y_{1}, x_{2}+y_{2})=(x_{1}+y_{1}, 0)$ and $T(x)+T(y)=(x_{1}, 0)+ (y_{1}, 0)=(x_{1}+y_{1}, 0).$ <br>
+(ii) $T(αx)=T(αx_{1}, αx_{2})=(αx_{1}, 0)$ and
 $αT(x)=α(x_{1}, 0)=(αx_{1}, 0).$ <br>
 
 c). Let $T:R^{2}$ &rarr; $R^{2}$ such that $T(x, y)=(x, 0),$ where $x, y \in R.$ Then $T$ is linear. <br>
-#### &emsp;  Proof:
-&emsp; Let x=(x<sub>1</sub>, x<sub>2</sub>) and y=(y<sub>1</sub>, y<sub>2</sub>)&isin;R<sup>2</sup>. Then T(x<sub>1</sub>, x<sub>2</sub>)=(x<sub>1</sub>, -x<sub>2</sub>) and T(y<sub>1</sub>, y<sub>2</sub>)=(y<sub>1</sub>, -y<sub>2</sub>). Notice that<br>
-&emsp;(i) T(x+y)=T[(x<sub>1</sub>, x<sub>2</sub>)+(y<sub>1</sub>, y<sub>2</sub>)]=T(x<sub>1</sub>+y<sub>1</sub>, x<sub>2</sub>+y<sub>2</sub>)=( x<sub>2</sub>+y<sub>2</sub>, x<sub>1</sub>+y<sub>1</sub>) and
-T(x)+T(y)=(-x<sub>2</sub>, x<sub>1</sub>)+ (-y<sub>2</sub>, y<sub>1</sub>)= ( x<sub>2</sub>+y<sub>2</sub>, x<sub>1</sub>+y<sub>1</sub>).<br>
-&emsp;(ii) T(αx)=T(αx<sub>1</sub>, αx<sub>2</sub>)=(αx<sub>1</sub>, -αx<sub>2</sub>) and
+#### Proof:
+Let $x=(x_{1}, x_{2})$ and $y=(y_{1}, y_{2}) \in R^{2}$. Then $T(x_{1}, x_{2})=(x_{1}, -x_{2})$ and $T(y_{1}, y_{2})=(y_{1}, -y_{2}).$ Notice that<br>
+(i) $T(x+y)=T[(x_{1}, x_{2})+(y_{1}, y_{2})]=T(x_{1}+y_{1}, x_{2}+y_{2})=( x_{2}+y_{2}, x_{1}+y_{1}) and
+T(x)+T(y)=(-x_{2}, x_{1})+ (-y_{2}, y_{1})= ( x_{2}+y_{2}, x_{1}+y_{1}).<br>
+(ii) T(αx)=T(αx<sub>1</sub>, αx<sub>2</sub>)=(αx<sub>1</sub>, -αx<sub>2</sub>) and
 αT(x)=α(x<sub>2</sub>, x<sub>1</sub>)=(αx<sub>1</sub>, -αx<sub>2</sub>).
 
 ##### 1.4. Proposition:
