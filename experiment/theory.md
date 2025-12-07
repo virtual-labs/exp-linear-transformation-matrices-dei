@@ -1,6 +1,6 @@
 This experiment helps students understand what a linear transformation is and how it is related to matrices. The experiment shows that every linear transformation can be written using a matrix and vice-versa, which makes it easier to work with. By doing this, students learn how matrices can be used to represent and apply transformations in a simple and clear way.
 #### 1. Linear transformation:
-Let $ M $ and $ N $ be vector spaces over a field $R$. Then a function $T:M→N$ is called a linear transformation if, for $x, y \in M$ and $ \in R$ <br>
+Let $M$ and $N$ be vector spaces over a field $R$. Then a function $T:M→N$ is called a linear transformation if, for $x, y \in M$ and $ \in R$ <br>
 (i) $T(x+y)=T(x)+T(y)$ <br>
 (ii) $T(αx)=αT(x)$
 
