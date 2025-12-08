@@ -33,21 +33,21 @@ $αT(x)=α(x_{1}, 0)=(αx_{1}, 0).$ <br>
 c). Let $T:R^{2}$ &rarr; $R^{2}$ such that $T(x, y)=(x, 0),$ where $x, y \in R.$ Then $T$ is linear. <br>
 #### Proof:
 Let $x=(x_{1}, x_{2})$ and $y=(y_{1}, y_{2}) \in R^{2}$. Then $T(x_{1}, x_{2})=(x_{1}, -x_{2})$ and $T(y_{1}, y_{2})=(y_{1}, -y_{2}).$ Notice that<br>
-(i) $T(x+y)=T[(x_{1}, x_{2})+(y_{1}, y_{2})]=T(x_{1}+y_{1}, x_{2}+y_{2})=( x_{2}+y_{2}, x_{1}+y_{1}) and
-T(x)+T(y)=(-x_{2}, x_{1})+ (-y_{2}, y_{1})= ( x_{2}+y_{2}, x_{1}+y_{1}).<br>
-(ii) T(αx)=T(αx<sub>1</sub>, αx<sub>2</sub>)=(αx<sub>1</sub>, -αx<sub>2</sub>) and
-αT(x)=α(x<sub>2</sub>, x<sub>1</sub>)=(αx<sub>1</sub>, -αx<sub>2</sub>).
+(i) $T(x+y)=T[(x_{1}, x_{2})+(y_{1}, y_{2})]=T(x_{1}+y_{1}, x_{2}+y_{2})=( x_{2}+y_{2}, x_{1}+y_{1})$ and
+$T(x)+T(y)=(-x_{2}, x_{1})+ (-y_{2}, y_{1})= ( x_{2}+y_{2}, x_{1}+y_{1}).$ <br>
+(ii) $T(αx)=T(αx_{1}, αx_{2})=(αx_{1}, -αx_{2})$ and
+$αT(x)=α(x_{2}, x_{1})=(αx_{1}, -αx_{2}).$
 
 ##### 1.4. Proposition:
-   Let T:M→N be a linear transformation. Then <br>
-   (i) T(0)=0; where 0 on the L.H.S is the zero vector of M and 0 on the R.H.S is the zero vector of  N. <br>
-   (ii) T(-x)=-T(x), for all x&isin;M <br>
-   (iii) T(x-y)=T(x)-T(y), for all x, y&isin;M<br>
-   (iv) T(αx+βy)=αT(x)+βT(y), for all x, y&isin;M and    α, β&isin;R<br>
+   Let $T:M→N$ be a linear transformation. Then <br>
+   (i) $T(0)=0;$ where 0 on the L.H.S is the zero vector of $M$ and 0 on the R.H.S is the zero vector of  $N.$ <br>
+   (ii) $T(-x)=-T(x),$ for all $x \in M$ <br>
+   (iii) $T(x-y)=T(x)-T(y),$ for all $x, y \in M$<br>
+   (iv) $T(αx+βy)=αT(x)+βT(y),$ for all $x, y \in M$ and    $α, β \in R$<br>
 
 ##### 1.5. Proposition:
-Let T:V→W be a linear map and V and W be finite dimensional vector spaces over R and <br>
-B={e<sub>1</sub>, e<sub>2</sub>, …, e<sub>n</sub>} is a basis for V and let x= r<sub>1</sub>f<sub>1</sub>+r<sub>2</sub> e<sub>2</sub>+ ... +r<sub>n</sub>e<sub>n</sub>, where x&isin;V, r<sub>1</sub>, r<sub>2</sub>, …, r<sub>n</sub>&isin;R. Then T(e<sub>1</sub>), T(e<sub>2</sub>), …, T(e<sub>n</sub>) define T, by  T(x)= rT(e<sub>1</sub>)+sT(e<sub>2</sub>)+  … +tT(e<sub>n</sub>) .
+Let $T:V→W$ be a linear map and $V$ and $W$ be finite dimensional vector spaces over $R$ and <br>
+$ B= \{e_{1}, e_{2}, …, e_{n}\} $ is a basis for $V$ and let $x= r_{1}f_{1}+r_{2} e_{2}+ ... +r_{n}e_{n},$ where $x \in V, r_{1}, r_{2}, …, r_{2} \in R.$ Then $T(e_{1}), T(e_{2}), …, T(e_{n})$ define $T,$ by  $T(x)= rT(e_{1})+sT(e_{2})+  … +tT(e_{n}).$
 
 #### 2. Matrix associated with a linear transformation:
 Let T:R<sup>3</sup>→R<sup>2</sup> be a linear transformation. Let B<sub>1</sub>={f<sub>1</sub>, f<sub>2</sub>, f<sub>3</sub>} and B<sub>2</sub>={e<sub>1</sub>, e<sub>2</sub>} be basis of R<sup>3</sup> and R<sup>2</sup> respectively. Then T(f<sub>1</sub>)=ae<sub>1</sub>+be<sub>2</sub>, T(f<sub>2</sub>)=ce<sub>1</sub>+de<sub>2</sub> and T(f<sub>3</sub>)=ge<sub>1</sub>+he<sub>2</sub>, for some a, b, c, d, g, h&isin;R.
@@ -75,9 +75,7 @@ be a matrix of order 2×3. Then the linear transformation T:R<sup>3</sup>→R<su
 Define T(f<sub>1</sub>)=ae<sub>1</sub>+be<sub>2</sub>, T(f<sub>2</sub>)=ce<sub>1</sub>+de<sub>2</sub> and T(f<sub>3</sub>)=ge<sub>1</sub>+he<sub>2</sub>, where a, b, c, d, g, h&isin;R. Then for x&isin;V, there exist r, s, t&isin;R such that x=rf<sub>1</sub>+sf<sub>2</sub>+tf<sub>3</sub>. Thus define T(x)= rT(f<sub>1</sub>)+sT(f<sub>2</sub>)+tT(f<sub>3</sub>), because T has to be linear.
 
 ##### 3.1. Example:  
-Consider A=
-
-$$\begin{pmatrix}1 & -1 & 0 \\\ 0 & 1 & 1\end{pmatrix}$$
+Consider A= $ \begin{pmatrix}1 & -1 & 0 \\\ 0 & 1 & 1\end{pmatrix} $
 
 Then find the associated linear transformation of A w.r.t. the basis B<sub>1</sub>={(1, 0, 0), (-1, 1, 0), (0, 1, 1)} and B<sub>2</sub>={(-1, 1), (0, 1)} of R<sup>3</sup> and R<sup>2</sup> respectively.  <br>
 Define T(1, 0, 0)=1(-1, 1)+0(0, 1)=(-1, 1), T(-1, 1, 0)=-1(-1, 1)+1(0, 1)=(1, 0) and T(0, 1, 1)=0(-1, 1)+1(0, 1)=(0, 1). Since (x, y, z)=a(1, 0, 0)+b(-1, 1, 0)+c(0, 1, 1), hence a-b=x, b+c=y and c=z. By solving these equations we get, a=x+y-z, b=y-z and c=z.<br>
