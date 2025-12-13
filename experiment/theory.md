@@ -1,16 +1,16 @@
 This experiment helps students understand what a linear transformation is and how it is related to matrices. The experiment shows that every linear transformation can be written using a matrix and vice-versa, which makes it easier to work with. By doing this, students learn how matrices can be used to represent transformations and apply these in various contexts in a simple and clear way.
 #### 1. Linear transformation:
-Let <i>M</i> and <i>N</i> be vector spaces over a field <i>R</i>. Then a function <i>T</i> : <i>M→N</i> is called a linear transformation if, for <i>x, y</i>&isin;<i>M</i> and <i>α</i>&isin;<i>R</i> <br>
+Let <i>M</i> and <i>N</i> be vector spaces over a field <i>R</i>. Then a function <i>T</i>: <i>M→N</i> is called a linear transformation if, for <i>x, y</i>&isin;<i>M</i> and <i>α</i>&isin;<i>R</i> <br>
 (i) <i>T</i>(<i>x</i>+<i>y</i>)=<i>T</i>(<i>x</i>)+<i>T</i>(<i>y</i>) <br>
 (ii) <i>T</i>(<i>αx</i>)=<i>αT</i>(<i>x</i>)
 
 ![Linear transformaion](images/exp5image1.PNG "Linear transformaion")<br>
 ##### 1.1. Identity transformation:
-Let <i>M</i> be a vector space over a field <i>R</i>. Then the function <i>T</i> : <i>M→M</i> defined as <i>T</i>(<i>x</i>)=<i>x</i>, where <i>x</i>&isin;<i>M</i>, is linear and is known as identity transformation.
+Let <i>M</i> be a vector space over a field <i>R</i>. Then the function <i>T</i>: <i>M→M</i> defined as <i>T</i>(<i>x</i>)=<i>x</i>, where <i>x</i>&isin;<i>M</i>, is linear and is known as identity transformation.
 
 ![Identity transformaion](images/exp5image3.PNG "Identity transformaion")<br>
 ##### 1.2. Zero transformation:
-Let <i>M</i> and <i>N</i> be vector spaces over a field <i>R</i>. Then the function <i>T</i> : <i>M→N</i> defined as <i>T(<i>x</i>)=0, where <i>x</i>&isin;<i>M</i>, is linear and is known as zero transformation.
+Let <i>M</i> and <i>N</i> be vector spaces over a field <i>R</i>. Then the function <i>T</i>: <i>M→N</i> defined as <i>T(<i>x</i>)=0, where <i>x</i>&isin;<i>M</i>, is linear and is known as zero transformation.
 
 ![Zero transformaion](images/exp5image2.PNG "Zero transformaion")<br>
 ##### 1.3. Examples:
