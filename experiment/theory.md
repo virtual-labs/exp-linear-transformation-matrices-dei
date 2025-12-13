@@ -23,7 +23,7 @@ Let <i>x</i>=(<i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>) and <i>y</i>=(<i>y</i>
 (ii) <i>T</i>(<i>αx<i>)=<i>T</i>(<i>αx</i><sub>1</sub>, <i>αx</i><sub>2</sub>)=(<i>αx</i><sub>1</sub>, -<i>αx</i><sub>2</sub>) and
 <i>αT</i>(<i>x</i>)=<i>α</i>(<i>x</i><sub>1</sub>, -<i>x</i><sub>2</sub>)=(<i>αx</i><sub>1</sub>, -<i>αx</i><sub>2</sub>). <br>
 
-b). Let <i>T</i>: <i>R</i><sup>2</sup> &rarr; R<sup>2</sup> such that $T(x, y)=(x, 0),$ where <i>x, y</i> &isin; <i>R</i>.$ Then $T$ is linear. <br>
+b). Let <i>T</i>: <i>R</i><sup>2</sup> &rarr; R<sup>2</sup> such that <i>T</i>(<i>x, y</i>)=(x, 0),$ where <i>x, y</i> &isin; <i>R</i>.$ Then $T$ is linear. <br>
 #### Proof:
 Let $x=(x_{1}, x_{2})$ and $y=(y_{1}, y_{2})$ &isin;<i>R</i><sup>2</sup>. Then $T(x_{1}, x_{2})=(x_{1}, -x_{2})$ and $T(y_{1}, y_{2})=(y_{1}, -y_{2}).$ Notice that<br>
 (i) $T(x+y)=T[(x_{1}, x_{2})+(y_{1}, y_{2})]=T(x_{1}+y_{1}, x_{2}+y_{2})=(x_{1}+y_{1}, 0)$ and $T(x)+T(y)=(x_{1}, 0)+ (y_{1}, 0)=(x_{1}+y_{1}, 0).$ <br>
