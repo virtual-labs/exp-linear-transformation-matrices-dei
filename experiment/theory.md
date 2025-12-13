@@ -10,7 +10,7 @@ Let <i>M</i> be a vector space over a field <i>R</i>. Then the function <i>T</i>
 
 ![Identity transformaion](images/exp5image3.PNG "Identity transformaion")<br>
 ##### 1.2. Zero transformation:
-Let <i>M</i> and <i>N</i> be vector spaces over a field <i>R</i>. Then the function <i>T</i>: <i>M→N</i> defined as <i>T(<i>x</i>)=0, where <i>x</i>&isin;<i>M</i>, is linear and is known as zero transformation.
+Let <i>M</i> and <i>N</i> be vector spaces over a field <i>R</i>. Then the function <i>T</i>: <i>M→N</i> defined as <i>T</i>(<i>x</i>)=0, where <i>x</i>&isin;<i>M</i>, is linear and is known as zero transformation.
 
 ![Zero transformaion](images/exp5image2.PNG "Zero transformaion")<br>
 ##### 1.3. Examples:
