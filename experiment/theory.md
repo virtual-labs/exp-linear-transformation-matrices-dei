@@ -1,38 +1,38 @@
 This experiment helps students understand what a linear transformation is and how it is related to matrices. The experiment shows that every linear transformation can be written using a matrix and vice-versa, which makes it easier to work with. By doing this, students learn how matrices can be used to represent transformations and apply these in various contexts in a simple and clear way.
 #### 1. Linear transformation:
-Let <i>M</i> and <i>N</i> be vector spaces over a field <i>R</i>. Then a function <i>T</i>:<i>M→N</i> is called a linear transformation if, for <i>x, y</i>&isin;<i>M</i> and <i>α</i>&isin;<i>R</i> <br>
+Let <i>M</i> and <i>N</i> be vector spaces over a field <i>R</i>. Then a function <i>T</i> : <i>M→N</i> is called a linear transformation if, for <i>x, y</i>&isin;<i>M</i> and <i>α</i>&isin;<i>R</i> <br>
 (i) <i>T</i>(<i>x</i>+<i>y</i>)=<i>T</i>(<i>x</i>)+<i>T</i>(<i>y</i>) <br>
 (ii) <i>T</i>(<i>αx</i>)=<i>αT</i>(<i>x</i>)
 
 ![Linear transformaion](images/exp5image1.PNG "Linear transformaion")<br>
 ##### 1.1. Identity transformation:
-Let <i>M</i> be a vector space over a field <i>R</i>. Then the function <i>T</i>:<i>M→M</i> defined as <i>T</i>(<i>x</i>)=<i>x</i>, where <i>x</i>&isin;<i>M</i>, is linear and is known as identity transformation.
+Let <i>M</i> be a vector space over a field <i>R</i>. Then the function <i>T</i> : <i>M→M</i> defined as <i>T</i>(<i>x</i>)=<i>x</i>, where <i>x</i>&isin;<i>M</i>, is linear and is known as identity transformation.
 
 ![Identity transformaion](images/exp5image3.PNG "Identity transformaion")<br>
 ##### 1.2. Zero transformation:
-Let <i>M</i> and <i>N</i> be vector spaces over a field <i>R</i>. Then the function <i>T</i>:<i>M→N</i> defined as <i>T(<i>x</i>)=0, where <i>x</i>&isin;<i>M</i>, is linear and is known as zero transformation.
+Let <i>M</i> and <i>N</i> be vector spaces over a field <i>R</i>. Then the function <i>T</i> : <i>M→N</i> defined as <i>T(<i>x</i>)=0, where <i>x</i>&isin;<i>M</i>, is linear and is known as zero transformation.
 
 ![Zero transformaion](images/exp5image2.PNG "Zero transformaion")<br>
 ##### 1.3. Examples:
-a). Let <i>T</i>:<i>R^{2}→R^{2}$ such that $T(x, y)=(x, -y)$, where $x, y \in R$. Then $T$ is linear.
+a). Let <i>T</i>: <i>R</i><sup>2</sup>→<i>R</i><sup>2</sup> such that <i>T</i>(<i>x, y<i>)=(<i>x, -y</i>)$, where <i>x, y</i>&isin;</i>R</i>. Then $T$ is linear.
 
 #### Proof:
-Let $x=(x_{1}, x_{2})$ and $y=(y_{1}, y_{2}) \in R^{2}.$ Then $T(x_{1}, x_{2})=(x_{1}, -x_{2})$ and
+Let $x=(x_{1}, x_{2})$ and $y=(y_{1}, y_{2})$&isin;<i>R</i><sup>2</sup>. Then $T(x_{1}, x_{2})=(x_{1}, -x_{2})$ and
 $T(y_{1}, y_{2})=(y_{1}, -y_{2})$. Notice that<br>
 (i) $T(x+y)=T[(x_{1}, x_{2}>)+(y_{1}, y_{2})]=T(x_{1}+y_{1}, x_{2}+y_{2})=(x_{1}+y_{1}, -(x_{2}+y_{2}))$ and $T(x)+T(y)=(x_{1}, -x_{2})+ (y_{1}, -y_{2})= (x_{1}+y_{1}, -(x_{2}+y_{2})).$ <br>
 (ii) $T(αx)=T(αx_{1}, αx_{2})=(αx_{1}, -αx_{2})$ and
 $αT(x)=α(x_{1}, -x_{2})=(αx_{1}, -αx_{2}).$ <br>
 
-b). Let $T:R^{2}$ &rarr; $R^{2}$ such that $T(x, y)=(x, 0),$ where $x, y \in R.$ Then $T$ is linear. <br>
+b). Let <i>T</i>: <i>R</i><sup>2</sup> &rarr; R<sup>2</sup> such that $T(x, y)=(x, 0),$ where <i>x, y</i> &isin; <i>R</i>.$ Then $T$ is linear. <br>
 #### Proof:
-Let $x=(x_{1}, x_{2})$ and $y=(y_{1}, y_{2}) \in R^{2}$. Then $T(x_{1}, x_{2})=(x_{1}, -x_{2})$ and $T(y_{1}, y_{2})=(y_{1}, -y_{2}).$ Notice that<br>
+Let $x=(x_{1}, x_{2})$ and $y=(y_{1}, y_{2})$ &isin;<i>R</i><sup>2</sup>. Then $T(x_{1}, x_{2})=(x_{1}, -x_{2})$ and $T(y_{1}, y_{2})=(y_{1}, -y_{2}).$ Notice that<br>
 (i) $T(x+y)=T[(x_{1}, x_{2})+(y_{1}, y_{2})]=T(x_{1}+y_{1}, x_{2}+y_{2})=(x_{1}+y_{1}, 0)$ and $T(x)+T(y)=(x_{1}, 0)+ (y_{1}, 0)=(x_{1}+y_{1}, 0).$ <br>
 (ii) $T(αx)=T(αx_{1}, αx_{2})=(αx_{1}, 0)$ and
 $αT(x)=α(x_{1}, 0)=(αx_{1}, 0).$ <br>
 
-c). Let $T:R^{2}$ &rarr; $R^{2}$ such that $T(x, y)=(x, 0),$ where $x, y \in R.$ Then $T$ is linear. <br>
+c). Let $T:R<sup>2</sup>$ &rarr; $R<sup>2</sup>$ such that $T(x, y)=(x, 0),$ where <i>x, y</i>&isin;<i>R</i>.$ Then $T$ is linear. <br>
 #### Proof:
-Let $x=(x_{1}, x_{2})$ and $y=(y_{1}, y_{2}) \in R^{2}$. Then $T(x_{1}, x_{2})=(x_{1}, -x_{2})$ and $T(y_{1}, y_{2})=(y_{1}, -y_{2}).$ Notice that<br>
+Let $x=(x_{1}, x_{2})$ and $y=(y_{1}, y_{2})$ &isin;<i>R</i><sup>2</sup>. Then $T(x_{1}, x_{2})=(x_{1}, -x_{2})$ and $T(y_{1}, y_{2})=(y_{1}, -y_{2}).$ Notice that<br>
 (i) $T(x+y)=T[(x_{1}, x_{2})+(y_{1}, y_{2})]=T(x_{1}+y_{1}, x_{2}+y_{2})=( x_{2}+y_{2}, x_{1}+y_{1})$ and
 $T(x)+T(y)=(-x_{2}, x_{1})+ (-y_{2}, y_{1})= ( x_{2}+y_{2}, x_{1}+y_{1}).$ <br>
 (ii) $T(αx)=T(αx_{1}, αx_{2})=(αx_{1}, -αx_{2})$ and
@@ -47,7 +47,7 @@ $αT(x)=α(x_{2}, x_{1})=(αx_{1}, -αx_{2}).$
 
 ##### 1.5. Proposition:
 Let $T:V→W$ be a linear map and $V$ and $W$ be finite dimensional vector spaces over $R$ and <br>
-$ B= \{e_{1}, e_{2}, …, e_{n}\} $ is a basis for $V$ and let $x= r_{1}f_{1}+r_{2} e_{2}+ ... +r_{n}e_{n},$ where $x \in V, r_{1}, r_{2}, …, r_{2} \in R.$ Then $T(e_{1}), T(e_{2}), …, T(e_{n})$ define $T,$ by  $T(x)= rT(e_{1})+sT(e_{2})+  … +tT(e_{n}).$
+$ B= \{e_{1}, e_{2}, …, e_{n}\} $ is a basis for $V$ and let $x= r_{1}f_{1}+r_{2} e_{2}+ ... +r_{n}e_{n},$ where $x &isin; V, r_{1}, r_{2}, …, r_{2} \in R.$ Then $T(e_{1}), T(e_{2}), …, T(e_{n})$ define $T,$ by  $T(x)= rT(e_{1})+sT(e_{2})+  … +tT(e_{n}).$
 
 #### 2. Matrix associated with a linear transformation:
 Let T:R<sup>3</sup>→R<sup>2</sup> be a linear transformation. Let B<sub>1</sub>={f<sub>1</sub>, f<sub>2</sub>, f<sub>3</sub>} and B<sub>2</sub>={e<sub>1</sub>, e<sub>2</sub>} be basis of R<sup>3</sup> and R<sup>2</sup> respectively. Then T(f<sub>1</sub>)=ae<sub>1</sub>+be<sub>2</sub>, T(f<sub>2</sub>)=ce<sub>1</sub>+de<sub>2</sub> and T(f<sub>3</sub>)=ge<sub>1</sub>+he<sub>2</sub>, for some a, b, c, d, g, h&isin;R.
