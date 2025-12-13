@@ -1,20 +1,20 @@
 This experiment helps students understand what a linear transformation is and how it is related to matrices. The experiment shows that every linear transformation can be written using a matrix and vice-versa, which makes it easier to work with. By doing this, students learn how matrices can be used to represent and apply transformations in a simple and clear way.
 #### 1. Linear transformation:
-Let <i>M</i> and <i>N</i> be vector spaces over a field <i>R</i>. Then a function <i>T</i>:<i>M→N</i> is called a linear transformation if, for<i>x, y</i> \in <i>M</i> and <i>α</i>\in <i>R</i> <br>
+Let <i>M</i> and <i>N</i> be vector spaces over a field <i>R</i>. Then a function <i>T</i>:<i>M→N</i> is called a linear transformation if, for<i>x, y</i>&isin;<i>M</i> and <i>α</i>&isin;<i>R</i> <br>
 (i) <i>T</i>(<i>x</i>+<i>y</i>)=<i>T</i>(<i>x</i>)+<i>T</i>(<i>y</i>) <br>
 (ii) <i>T</i>(<i>αx</i>)=<i>αT</i>(<i>x</i>)
 
 ![Linear transformaion](images/exp5image1.PNG "Linear transformaion")<br>
 ##### 1.1. Identity transformation:
-Let <i>M</i> be a vector space over a field <i>R</i>. Then the function <i>T</i>:<i>M→M</i> defined as <i>T</i>(<i>x</i>)=x$, where <i>x</i>\in<i>M</i>, is linear and is known as identity transformation.
+Let <i>M</i> be a vector space over a field <i>R</i>. Then the function <i>T</i>:<i>M→M</i> defined as <i>T</i>(<i>x</i>)=<i>x</i>, where <i>x</i>&isin;<i>M</i>, is linear and is known as identity transformation.
 
 ![Identity transformaion](images/exp5image3.PNG "Identity transformaion")<br>
 ##### 1.2. Zero transformation:
-Let <i>M</i> and $N$ be vector spaces over a field $R$. Then the function $T:M→N$ defined as $T(x)=0$, where $x \in M$, is linear and is known as zero transformation.
+Let <i>M</i> and <i>N</i> be vector spaces over a field <i>R</i>. Then the function <i>T</i>:<i>M→N</i> defined as <i>T(<i>x</i>)=0, where <i>x</i>&isin;<i>M</i>, is linear and is known as zero transformation.
 
 ![Zero transformaion](images/exp5image2.PNG "Zero transformaion")<br>
 ##### 1.3. Examples:
-a). Let $T: R^{2}→R^{2}$ such that $T(x, y)=(x, -y)$, where $x, y \in R$. Then $T$ is linear.
+a). Let <i>T</i>:<i>R^{2}→R^{2}$ such that $T(x, y)=(x, -y)$, where $x, y \in R$. Then $T$ is linear.
 
 #### Proof:
 Let $x=(x_{1}, x_{2})$ and $y=(y_{1}, y_{2}) \in R^{2}.$ Then $T(x_{1}, x_{2})=(x_{1}, -x_{2})$ and
