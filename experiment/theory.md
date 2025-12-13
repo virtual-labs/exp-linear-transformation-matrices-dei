@@ -17,11 +17,11 @@ Let <i>M</i> and <i>N</i> be vector spaces over a field <i>R</i>. Then the funct
 a). Let <i>T</i>: <i>R</i><sup>2</sup>→<i>R</i><sup>2</sup> such that <i>T</i>(<i>x, y<i>)=(<i>x, -y</i>)$, where <i>x, y</i>&isin;</i>R</i>. Then $T$ is linear.
 
 #### Proof:
-Let $x=(x_{1}, x_{2})$ and $y=(y_{1}, y_{2})$&isin;<i>R</i><sup>2</sup>. Then $T(x_{1}, x_{2})=(x_{1}, -x_{2})$ and
-$T(y_{1}, y_{2})=(y_{1}, -y_{2})$. Notice that<br>
-(i) $T(x+y)=T[(x_{1}, x_{2}>)+(y_{1}, y_{2})]=T(x_{1}+y_{1}, x_{2}+y_{2})=(x_{1}+y_{1}, -(x_{2}+y_{2}))$ and $T(x)+T(y)=(x_{1}, -x_{2})+ (y_{1}, -y_{2})= (x_{1}+y_{1}, -(x_{2}+y_{2})).$ <br>
-(ii) $T(αx)=T(αx_{1}, αx_{2})=(αx_{1}, -αx_{2})$ and
-$αT(x)=α(x_{1}, -x_{2})=(αx_{1}, -αx_{2}).$ <br>
+Let $x=(x<sub>1</sub>, x<sub>2</sub>)$ and $y=(y<sub>1</sub>, y<sub>2</sub>)$&isin;<i>R</i><sup>2</sup>. Then $T(x<sub>1</sub>, x<sub>2</sub>)=(x<sub>1</sub>, -x<sub>2</sub>)$ and
+$T(y<sub>1</sub>, y<sub>2</sub>)=(y<sub>1</sub>, -y<sub>2</sub>)$. Notice that<br>
+(i) $T(x+y)=T[(x<sub>1</sub>, x<sub>2</sub>)+(y<sub>1</sub>, y<sub>2</sub>)]=T(x<sub>1</sub>+y<sub>1</sub>, x<sub>2</sub>+y<sub>2</sub>)=(x<sub>1</sub>+y<sub>1</sub>, -(x<sub>2</sub>+y<sub>2</sub>))$ and $T(x)+T(y)=(x<sub>1</sub>, -x<sub>2</sub>)+ (y<sub>1</sub>, -y<sub>2</sub>)= (x<sub>1</sub>+y<sub>1</sub>, -(x<sub>2</sub>+y<sub>2</sub>)).$ <br>
+(ii) $T(αx)=T(αx<sub>1</sub>, αx<sub>2</sub>)=(αx<sub>1</sub>, -αx<sub>2</sub>)$ and
+$αT(x)=α(x<sub>1</sub>, -x<sub>2</sub>)=(αx<sub>1</sub>, -αx<sub>2</sub>).$ <br>
 
 b). Let <i>T</i>: <i>R</i><sup>2</sup> &rarr; R<sup>2</sup> such that $T(x, y)=(x, 0),$ where <i>x, y</i> &isin; <i>R</i>.$ Then $T$ is linear. <br>
 #### Proof:
@@ -78,6 +78,6 @@ Define T(f<sub>1</sub>)=ae<sub>1</sub>+be<sub>2</sub>, T(f<sub>2</sub>)=ce<sub>1
 Consider A= $ \begin{pmatrix}1 & -1 & 0 \\\ 0 & 1 & 1\end{pmatrix} $
 
 Then find the associated linear transformation of A w.r.t. the basis B<sub>1</sub>={(1, 0, 0), (-1, 1, 0), (0, 1, 1)} and B<sub>2</sub>={(-1, 1), (0, 1)} of R<sup>3</sup> and R<sup>2</sup> respectively.  <br>
-Define T(1, 0, 0)=1(-1, 1)+0(0, 1)=(-1, 1), T(-1, 1, 0)=-1(-1, 1)+1(0, 1)=(1, 0) and T(0, 1, 1)=0(-1, 1)+1(0, 1)=(0, 1). Since (x, y, z)=a(1, 0, 0)+b(-1, 1, 0)+c(0, 1, 1), hence a-b=x, b+c=y and c=z. By solving these equations we get, a=x+y-z, b=y-z and c=z.<br>
-Now, define  T:R<sup>3</sup>→R<sup>2</sup> by T(x, y, z)= aT(1, 0, 0)+bT(-1, 1, 0)+cT(0, 1, 1)=a(-1, 1)+b(1, 0)+c(0, 1)=(-a+b, a+c)=(-x, x+y), where x, y&isin;R.<br>
-The linear transformation T:R<sup>3</sup>→R<sup>2</sup> associated with the matrix 2×3 A w.r.t. the basis B<sub>1</sub> and B<sub>2</sub> is T(x, y, z)=( -x, x+y), where x, y&isin;R.
+Define T(1, 0, 0)=1(-1, 1)+0(0, 1)=(-1, 1), T(-1, 1, 0)=-1(-1, 1)+1(0, 1)=(1, 0) and T(0, 1, 1)=0(-1, 1)+1(0, 1)=(0, 1). Since (x, y, z)=a(1, 0, 0)+b(-1, 1, 0)+c(0, 1, 1), hence a-b=x, b+c=y</i> and <i>c</i>=<i>z</i>. By solving these equations we get, <i>a</i>=<i>x</i>+<i>y</i>-<i>z</i>, <i>b</i>=<i>y</i>-<i>z</i> and <i>c</i>=<i>z</i>.<br>
+Now, define  <i>T</i>: <i>R</i><sup>3</sup>→<i>R</i><sup>2</sup> by <i>T</i>(<i>x, y, z</i>)= <i>aT</i>(1, 0, 0)+<i>bT</i>(-1, 1, 0)+<i>cT</i>(0, 1, 1)=<i>a</i>(-1, 1)+<i>b</i>(1, 0)+<i>c</i>(0, 1)=(-<i>a</i>+<i>b</i>, <i>a</i>+<i>c</i>)=(-<i>x</i>, <i>x</i>+<i>y</i>), where <i>x, y</i>&isin;<i>R</i>.<br>
+The linear transformation <i>T</i>: <i>R</i><sup>3</sup>→<i>R</i><sup>2</sup> associated with the matrix 2×3 <i>A<i> w.r.t. the basis <i>B</i><sub>1</sub> and <i>B</i><sub>2</sub> is T(<i>x</i>, <i>y</i>, <i>z</i>)=(-<i>x</i>, <i>x</i>+<i>y</i>), where <i>x, y</i>&isin;<i>R</i>.
