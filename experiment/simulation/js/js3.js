@@ -164,7 +164,7 @@
             return false
         }
 
-        document.getElementById('explain').innerHTML="<a id='explain' onclick='explain()'>See Explanation:</a> ";
+        document.getElementById('explain').innerHTML="<a id='explain' onclick='explain()'>Explanation is provided below.</a> ";
 
         var tf1val1=(aval*e11val)+(cval*e21val);
         var tf1val2=(aval*e12val)+(cval*e22val);
