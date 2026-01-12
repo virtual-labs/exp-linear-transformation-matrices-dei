@@ -49,9 +49,7 @@ Let <i>x</i>=(<i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>)</i> and <i>y</i>=(<i>y
 
 #### <span style="font-family: 'Times New Roman'; font-size: 22px;">2. Matrix associated with a linear transformation:</span>
 <span style="font-family: 'Times New Roman'; font-size: 22px;">Let <i>T</i>: <i>R</i><sup>3</sup>→<i>R</i><sup>2</sup> be a linear transformation. Let <i>B</i><sub>1</sub>={<i>f</i><sub>1</sub>, <i>f</i><sub>2</sub>, <i>f</i><sub>3</sub>} and <i>B</i><sub>2</sub>={<i>e</i><sub>1</sub>, <i>e</i><sub>2</sub>} be basis of <i>R</i><sup>3</sup> and <i>R</i><sup>2</sup> respectively. Then <i>T</i>(<i>f</i><sub>1</sub>)=<i>ae</i><sub>1</sub>+<i>be</i><sub>2</sub>, <i>T</i>(<i>f</i><sub>2</sub>)=<i>ce</i><sub>1</sub>+<i>de</i><sub>2</sub> and <i>T</i>(<i>f</i><sub>3</sub>)=<i>ge</i><sub>1</sub>+<i>he</i><sub>2</sub>, for some <i>a, b, c, d, g, h</i>&isin;<i>R</i>.<br><br>
-Let <i>A</i>=</span>
-
-$$\begin{pmatrix}a & c & e \\\ b & d & f\end{pmatrix}$$
+Let <i>A</i>=</span> $ \begin{pmatrix}a & c & e \\\ b & d & f\end{pmatrix} $
 
 <span style="font-family: 'Times New Roman'; font-size: 22px;">Then matrix <i>A</i> is of order 2×3 and is called the matrix representation of <i>T</i> w.r.t. the basis <i>B</i><sub>1</sub> and <i>B</i><sub>2</sub>.<br>
 In a similar way, one can check that a matrix representation of <i>T</i>: <i>R</i><sup><i>n</i></sup>→<i>R</i><sup><i>m</i></sup> is of order <i>m</i>×<i>n</i>.</span>
@@ -64,15 +62,13 @@ Let <i>e</i><sub>1</sub>=(1, 0), <i>e</i><sub>2</sub>=(0, 1), <i>f</i><sub>1</su
 representation of <i>T</i> w.r.t. the basis <i>B</i><sub>1</sub> and <i>B</i><sub>2</sub> is
 
 #### <span style="font-family: 'Times New Roman'; font-size: 22px;">3. Linear transformation associated with a matrix:</span>
-<span style="font-family: 'Times New Roman'; font-size: 22px;">Let <i>A</i>=</span>
-
-$$\begin{pmatrix}a & c & e \\\ b & d & f\end{pmatrix}$$
+<span style="font-family: 'Times New Roman'; font-size: 22px;">Let <i>A</i>=</span> $ \begin{pmatrix}a & c & e \\\ b & d & f\end{pmatrix} $
 
 <span style="font-family: 'Times New Roman'; font-size: 22px;">be a matrix of order 2×3. Then the linear transformation <i>T</i>: <i>R</i><sup>3</sup>→<i>R</i><sup>2</sup> associated with the matrix w.r.t. the basis <i>B</i><sub>1</sub>=>={<i>f</i><sub>1</sub>, <i>f</i><sub>2</sub>, <i>f</i><sub>3</sub>} and <i>B</i><sub>2</sub>={<i>e</i><sub>1</sub>, <i>e</i><sub>2</sub>} of <i>R</i><sup>3</sup>  and <i>R</i><sup>2</sup>respectively can be obtained as follows:<br>
 Define <i>T</i>(<i>f</i><sub>1</sub>)=<i>ae</i><sub>1</sub>+<i>be</i><sub>2</sub>, <i>T</i>(<i>f</i><sub>2</sub>)=<i>ce</i><sub>1</sub>+<i>de</i><sub>2</sub> and <i>T</i>(<i>f</i><sub>3</sub>)=<i>ge</i><sub>1</sub>+<i>he</i><sub>2</sub>, where <i>a, b, c, d, g, h</i>&isin;<i>R</i>. Then for <i>x</i>&isin;<i>V</i>, there exist <i>r, s, t</i>&isin;<i>R</i> such that <i>x</i>=<i>rf</i><sub>1</sub>+<i>sf</i><sub>2</sub>+<i>tf</i><sub>3</sub>. Thus define <i>T</i>(<i>x</i>)=<i>rT</i>(<i>f</i><sub>1</sub>)+<i>sT</i>(<i>f</i><sub>2</sub>)+<i>tT</i>(<i>f</i><sub>3</sub>), because <i>T</i> has to be linear.</span>
 
 ##### <span style="font-family: 'Times New Roman'; font-size: 22px;">3.1. Example:</span>  
-<span style="font-family: 'Times New Roman'; font-size: 22px;">Consider</span> <i>A</i>= $ \begin{pmatrix}1 & -1 & 0 \\\ 0 & 1 & 1\end{pmatrix} $
+<span style="font-family: 'Times New Roman'; font-size: 22px;">Consider <i>A</i></span> = $ \begin{pmatrix}1 & -1 & 0 \\\ 0 & 1 & 1\end{pmatrix} $
 
 <span style="font-family: 'Times New Roman'; font-size: 22px;">Then find the associated linear transformation of <i>A</i> w.r.t. the basis <i>B</i><sub>1</sub>={(1, 0, 0), (-1, 1, 0), (0, 1, 1)} and <i>B</i><sub>2</sub>={(-1, 1), (0, 1)} of <i>R</i><sup>3</sup> and <i>R</i><sup>2</sup> respectively.  <br>
 Define <i>T</i>(1, 0, 0)=1(-1, 1)+0(0, 1)=(-1, 1), <i>T</i>(-1, 1, 0)=-1(-1, 1)+1(0, 1)=(1, 0) and <i>T</i>(0, 1, 1)=0(-1, 1)+1(0, 1)=(0, 1). Since (<i>x, y, z</i>)=<i>a</i>(1, 0, 0)+<i>b</i>(-1, 1, 0)+<i>c</i>(0, 1, 1), hence <i>a</i>-<i>b</i>=<i>x</i>, <i>b</i>+<i>c</i>=<i>y</i> and <i>c</i>=<i>z</i>. By solving these equations we get, <i>a</i>=<i>x</i>+<i>y</i>-<i>z</i>, <i>b</i>=<i>y</i>-<i>z</i> and <i>c</i>=<i>z</i>.<br>
