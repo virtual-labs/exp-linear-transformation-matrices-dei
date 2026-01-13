@@ -13,7 +13,7 @@
 <span style="font-family: 'Times New Roman'; font-size: 22px;">Let <i>M</i> and <i>N</i> be vector spaces over a field <i>R</i>. Then the function <i>T</i>: <i>M→N</i> defined as <i>T</i>(<i>x</i>)=0, where <i>x</i>&isin;<i>M</i>, is linear and is known as zero transformation.</span>
 
 ![Zero transformaion](images/exp5image2.PNG "Zero transformaion")<br>
-##### <span style="font-family: 'Times New Roman'; font-size: 22px;">1.3. Examples:</span>
+##### <span style="font-family: 'Times New Roman'; font-size: 22px;">1.3. Example:</span>
 <span style="font-family: 'Times New Roman'; font-size: 22px;">a). Let <i>T</i>: <i>R</i><sup>2</sup>→<i>R</i><sup>2</sup> such that <i>T</i>(<i>x</i>, y<i>)=(<i>x</i>, -y</i>), where <i>x, y</i>&isin;<i>R</i>. Then <i>T</i> is linear.<br>
 <b>Proof:</b>
 Let <i>x</i>=(<i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>) and <i>y</i>=(<i>y</i><sub>1</sub>, <i>y</i><sub>2</sub>)&isin;<i>R</i><sup>2</sup>. Then <i>T</i>(<i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>)=(<i>x</i><sub>1</sub>, -<i>x</i><sub>2</sub>) and
@@ -24,18 +24,18 @@ Let <i>x</i>=(<i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>) and <i>y</i>=(<i>y</i>
 
 <span style="font-family: 'Times New Roman'; font-size: 22px;">b). Let <i>T</i>: <i>R</i><sup>2</sup> &rarr; <i>R</i><sup>2</sup> such that <i>T</i>(<i>x, y</i>)=(<i>x</i>, 0), where <i>x, y</i> &isin; <i>R</i>. Then <i>T</i> is linear. <br>
 <b>Proof:</b>
-Let <i>x</i>=(<i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>) and <i>y</i>=(<i>y</i><sub>1</sub>, <i>y</i><sub>2</sub>) &isin;<i>R</i><sup>2</sup>. Then <i>T</i>(<i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>)=(<i>x</i><sub>1</sub>, -<i>x</i><sub>2</sub>) and <i>T</i>(<i>y</i><sub>1</sub>, <i>y</i><sub>2</sub>)=(<i>y</i><sub>1</sub>, -<i>y</i><sub>2</sub>). Notice that<br>
+Let <i>x</i>=(<i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>) and <i>y</i>=(<i>y</i><sub>1</sub>, <i>y</i><sub>2</sub>) &isin;<i>R</i><sup>2</sup>. Then <i>T</i>(<i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>)=(<i>x</i><sub>1</sub>, 0) and <i>T</i>(<i>y</i><sub>1</sub>, <i>y</i><sub>2</sub>)=(<i>y</i><sub>1</sub>, 0). Notice that<br>
 (i) <i>T</i>(<i>x</i>+<i>y</i>)=<i>T</i>[(<i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>)+(<i>y</i><sub>1</sub>, <i>y</i><sub>2</sub>)]=<i>T</i>(<i>x</i><sub>1</sub>+<i>y</i><sub>1</sub>, <i>x</i><sub>2</sub>+<i>y</i><sub>2</sub>)=(<i>x</i><sub>1</sub>+<i>y</i><sub>1</sub>, 0) and <i>T</i>(<i>x</i>)+<i>T</i>(<i>y</i>)=(<i>x</i><sub>1</sub>, 0)+ (<i>y</i><sub>1</sub>, 0)=(<i>x</i><sub>1</sub>+<i>y</i><sub>1</sub>, 0). <br>
 (ii) <i>T</i>(<i>αx</i>)=<i>T</i>(<i>αx</i><sub>1</sub>, α<i>x</i><sub>2</sub>)=(<i>αx</i><sub>1</sub>, 0) and
 <i>αT</i>(<i>x</i>)=α(<i>x</i><sub>1</sub>, 0)=(<i>αx</i><sub>1</sub>, 0). <br></span>
 
-<span style="font-family: 'Times New Roman'; font-size: 22px;">c). Let <i>T:R</i><sup>2</sup> &rarr; <i>R</i><sup>2</sup> such that <i>T</i>(<i>x, y</i>)=(<i>x</i>, 0), where <i>x</i>, y</i>&isin;<i>R</i>. Then <i>T</i> is linear. <br>
+<span style="font-family: 'Times New Roman'; font-size: 22px;">c). Let <i>T:R</i><sup>2</sup> &rarr; <i>R</i><sup>2</sup> such that <i>T</i>(<i>x, y</i>)=(<i>y</i>, <i>x</i>), where <i>x</i>, y</i>&isin;<i>R</i>. Then <i>T</i> is linear. <br>
 <b>Proof:</b>
-Let <i>x</i>=(<i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>)</i> and <i>y</i>=(<i>y</i><sub>1</sub>, <i>y</i><sub>2</sub>)</i> &isin;<i>R</i><sup>2</sup>. Then <i>T</i>(<i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>)=(<i>x</i><sub>1</sub>, -<i>x</i><sub>2</sub>)</i> and <i>T</i>(<i>y</i><sub>1</sub>, <i>y</i><sub>2</sub>)=(<i>y</i><sub>1</sub>, -<i>y</i><sub>2</sub>). Notice that<br>
+Let <i>x</i>=(<i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>)</i> and <i>y</i>=(<i>y</i><sub>1</sub>, <i>y</i><sub>2</sub>)</i> &isin;<i>R</i><sup>2</sup>. Then <i>T</i>(<i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>)=(<i>x</i><sub>2</sub>, <i>x</i><sub>1</sub>)</i> and <i>T</i>(<i>y</i><sub>1</sub>, <i>y</i><sub>2</sub>)=(<i>y</i><sub>2</sub>, <i>y</i><sub>1</sub>). Notice that<br>
 (i) <i>T</i>(x+y)=<i>T</i>[(<i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>)+(<i>y</i><sub>1</sub>, <i>y</i><sub>2</sub>)]=<i>T</i>(<i>x</i><sub>1</sub>+<i>y</i><sub>1</sub>, <i>x</i><sub>2</sub>+<i>y</i><sub>2</sub>)=( <i>x</i><sub>2</sub>+<i>y</i><sub>2</sub>, <i>x</i><sub>1</sub>+<i>y</i><sub>1</sub>) and
-<i>T</i>(<i>x</i>)+<i>T</i>(<i>y</i>)=(-<i>x</i><sub>2</sub>, <i>x</i><sub>1</sub>)+ (-<i>y</i><sub>2</sub>, <i>y</i><sub>1</sub>)= ( <i>x</i><sub>2</sub>+<i>y</i><sub>2</sub>, <i>x</i><sub>1</sub>+<i>y</i><sub>1</sub>). <br>
-(ii) <i>T</i>(<i>αx</i>)=<i>T</i>(<i>αx</i><sub>1</sub>, α<i>x</i><sub>2</sub>)=(<i>αx</i><sub>1</sub>, -α<i>x</i><sub>2</sub>) and
-α<i>T</i>(<i>x</i>)=α(<i>x</i><sub>2</sub>, <i>x</i><sub>1</sub>)=(<i>αx</i><sub>1</sub>, -α<i>x</i><sub>2</sub>).</span>
+<i>T</i>(<i>x</i>)+<i>T</i>(<i>y</i>)=(<i>x</i><sub>2</sub>, <i>x</i><sub>1</sub>)+ (<i>y</i><sub>2</sub>, <i>y</i><sub>1</sub>)= ( <i>x</i><sub>2</sub>+<i>y</i><sub>2</sub>, <i>x</i><sub>1</sub>+<i>y</i><sub>1</sub>). <br>
+(ii) <i>T</i>(<i>αx</i>)=<i>T</i>(<i>αx</i><sub>1</sub>, α<i>x</i><sub>2</sub>)=(<i>αx</i><sub>2</sub>, α<i>x</i><sub>1</sub>) and
+α<i>T</i>(<i>x</i>)=α(<i>x</i><sub>2</sub>, <i>x</i><sub>1</sub>)=(<i>αx</i><sub>2</sub>, α<i>x</i><sub>1</sub>).</span>
 
 ##### <span style="font-family: 'Times New Roman'; font-size: 22px;">1.4. Proposition:</span>
   <span style="font-family: 'Times New Roman'; font-size: 22px;"> Let <i>T:M→N</i> be a linear transformation. Then <br>
@@ -60,6 +60,7 @@ Let <i>e</i><sub>1</sub>=(1, 0), <i>e</i><sub>2</sub>=(0, 1), <i>f</i><sub>1</su
 <i>T</i>(1, 0)=(1, 0)=0.(0, -1)+(-1).(-1, 0)
 <i>T</i>(0, 1)=(0, -1)= 1.(0, -1)+0.(-1, 0) and hence the matrix</span>
 representation of <i>T</i> w.r.t. the basis <i>B</i><sub>1</sub> and <i>B</i><sub>2</sub> is
+A = $ \begin{pmatrix}0 & 1 \\ -1 & 0 \end{pmatrix} $
 
 #### <span style="font-family: 'Times New Roman'; font-size: 22px;">3. Linear transformation associated with a matrix:</span>
 <span style="font-family: 'Times New Roman'; font-size: 22px;">Let <i>A</i>=</span> $ \begin{pmatrix}a & c & e \\\ b & d & f\end{pmatrix} $
