@@ -18,21 +18,21 @@
 <b>Proof:</b>
 Let <i>x</i>=(<i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>) and <i>y</i>=(<i>y</i><sub>1</sub>, <i>y</i><sub>2</sub>)&isin;<i>R</i><sup>2</sup>. Then <i>T</i>(<i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>)=(<i>x</i><sub>1</sub>, -<i>x</i><sub>2</sub>) and
 <i>T</i>(<i>y</i><sub>1</sub>, <i>y</i><sub>2</sub>)=(<i>y</i><sub>1</sub>, -<i>y</i><sub>2</sub>). Notice that<br>
-(i) <i>T</i>(<i>x</i>+<i>y</i>)=<i>T</i>[(<i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>)+(<i>y</i><sub>1</sub>, <i>y</i><sub>2</sub>)]=<i>T</i>(<i>x</i><sub>1</sub>+<i>y</i><sub>1</sub>, <i>x</i><sub>2</sub>+<i>y</i><sub>2</sub>)=(<i>x</i><sub>1</sub>+<i>y</i><sub>1</sub>, -(<i>x</i><sub>2</sub>+<i>y</i><sub>2</sub>)) and <i>T</i>(<i>x</i>)+<i>T</i>(<i>y</i>)=(<i>x</i><sub>1</sub>, -<i>x</i><sub>2</sub>)+ (<i>y</i><sub>1</sub>, -<i>y</i><sub>2</sub>)= (<i>x</i><sub>1</sub>+<i>y</i><sub>1</sub>, -(<i>x</i><sub>2</sub>+<i>y</i><sub>2</sub>)). <br>
+(i) <i>T</i>(<i>x</i>+<i>y</i>)=<i>T</i>((<i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>)+(<i>y</i><sub>1</sub>, <i>y</i><sub>2</sub>))=<i>T</i>(<i>x</i><sub>1</sub>+<i>y</i><sub>1</sub>, <i>x</i><sub>2</sub>+<i>y</i><sub>2</sub>)=(<i>x</i><sub>1</sub>+<i>y</i><sub>1</sub>, -(<i>x</i><sub>2</sub>+<i>y</i><sub>2</sub>)) and <i>T</i>(<i>x</i>)+<i>T</i>(<i>y</i>)=(<i>x</i><sub>1</sub>, -<i>x</i><sub>2</sub>)+ (<i>y</i><sub>1</sub>, -<i>y</i><sub>2</sub>)= (<i>x</i><sub>1</sub>+<i>y</i><sub>1</sub>, -(<i>x</i><sub>2</sub>+<i>y</i><sub>2</sub>)). <br>
 (ii) <i>T</i>(<i>αx</i>)=<i>T</i>(<i>αx</i><sub>1</sub>, <i>αx</i><sub>2</sub>)=(<i>αx</i><sub>1</sub>, -<i>αx</i><sub>2</sub>) and
 <i>αT</i>(<i>x</i>)=<i>α</i>(<i>x</i><sub>1</sub>, -<i>x</i><sub>2</sub>)=(<i>αx</i><sub>1</sub>, -<i>αx</i><sub>2</sub>). <br></span>
 
 <span style="font-family: 'Times New Roman'; font-size: 22px;">b). Let <i>T</i>: <i>R</i><sup>2</sup> &rarr; <i>R</i><sup>2</sup> such that <i>T</i>(<i>x, y</i>)=(<i>x</i>, 0), where <i>x, y</i> &isin; <i>R</i>. Then <i>T</i> is linear. <br>
 <b>Proof:</b>
 Let <i>x</i>=(<i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>) and <i>y</i>=(<i>y</i><sub>1</sub>, <i>y</i><sub>2</sub>) &isin;<i>R</i><sup>2</sup>. Then <i>T</i>(<i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>)=(<i>x</i><sub>1</sub>, 0) and <i>T</i>(<i>y</i><sub>1</sub>, <i>y</i><sub>2</sub>)=(<i>y</i><sub>1</sub>, 0). Notice that<br>
-(i) <i>T</i>(<i>x</i>+<i>y</i>)=<i>T</i>[(<i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>)+(<i>y</i><sub>1</sub>, <i>y</i><sub>2</sub>)]=<i>T</i>(<i>x</i><sub>1</sub>+<i>y</i><sub>1</sub>, <i>x</i><sub>2</sub>+<i>y</i><sub>2</sub>)=(<i>x</i><sub>1</sub>+<i>y</i><sub>1</sub>, 0) and <i>T</i>(<i>x</i>)+<i>T</i>(<i>y</i>)=(<i>x</i><sub>1</sub>, 0)+ (<i>y</i><sub>1</sub>, 0)=(<i>x</i><sub>1</sub>+<i>y</i><sub>1</sub>, 0). <br>
+(i) <i>T</i>(<i>x</i>+<i>y</i>)=<i>T</i>((<i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>)+(<i>y</i><sub>1</sub>, <i>y</i><sub>2</sub>))=<i>T</i>(<i>x</i><sub>1</sub>+<i>y</i><sub>1</sub>, <i>x</i><sub>2</sub>+<i>y</i><sub>2</sub>)=(<i>x</i><sub>1</sub>+<i>y</i><sub>1</sub>, 0) and <i>T</i>(<i>x</i>)+<i>T</i>(<i>y</i>)=(<i>x</i><sub>1</sub>, 0)+ (<i>y</i><sub>1</sub>, 0)=(<i>x</i><sub>1</sub>+<i>y</i><sub>1</sub>, 0). <br>
 (ii) <i>T</i>(<i>αx</i>)=<i>T</i>(<i>αx</i><sub>1</sub>, α<i>x</i><sub>2</sub>)=(<i>αx</i><sub>1</sub>, 0) and
 <i>αT</i>(<i>x</i>)=α(<i>x</i><sub>1</sub>, 0)=(<i>αx</i><sub>1</sub>, 0). <br></span>
 
 <span style="font-family: 'Times New Roman'; font-size: 22px;">c). Let <i>T:R</i><sup>2</sup> &rarr; <i>R</i><sup>2</sup> such that <i>T</i>(<i>x, y</i>)=(<i>y</i>, <i>x</i>), where <i>x</i>, y</i>&isin;<i>R</i>. Then <i>T</i> is linear. <br>
 <b>Proof:</b>
 Let <i>x</i>=(<i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>)</i> and <i>y</i>=(<i>y</i><sub>1</sub>, <i>y</i><sub>2</sub>)</i> &isin;<i>R</i><sup>2</sup>. Then <i>T</i>(<i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>)=(<i>x</i><sub>2</sub>, <i>x</i><sub>1</sub>)</i> and <i>T</i>(<i>y</i><sub>1</sub>, <i>y</i><sub>2</sub>)=(<i>y</i><sub>2</sub>, <i>y</i><sub>1</sub>). Notice that<br>
-(i) <i>T</i>(x+y)=<i>T</i>[(<i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>)+(<i>y</i><sub>1</sub>, <i>y</i><sub>2</sub>)]=<i>T</i>(<i>x</i><sub>1</sub>+<i>y</i><sub>1</sub>, <i>x</i><sub>2</sub>+<i>y</i><sub>2</sub>)=( <i>x</i><sub>2</sub>+<i>y</i><sub>2</sub>, <i>x</i><sub>1</sub>+<i>y</i><sub>1</sub>) and
+(i) <i>T</i>(x+y)=<i>T</i>((<i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>)+(<i>y</i><sub>1</sub>, <i>y</i><sub>2</sub>))=<i>T</i>(<i>x</i><sub>1</sub>+<i>y</i><sub>1</sub>, <i>x</i><sub>2</sub>+<i>y</i><sub>2</sub>)=( <i>x</i><sub>2</sub>+<i>y</i><sub>2</sub>, <i>x</i><sub>1</sub>+<i>y</i><sub>1</sub>) and
 <i>T</i>(<i>x</i>)+<i>T</i>(<i>y</i>)=(<i>x</i><sub>2</sub>, <i>x</i><sub>1</sub>)+ (<i>y</i><sub>2</sub>, <i>y</i><sub>1</sub>)= ( <i>x</i><sub>2</sub>+<i>y</i><sub>2</sub>, <i>x</i><sub>1</sub>+<i>y</i><sub>1</sub>). <br>
 (ii) <i>T</i>(<i>αx</i>)=<i>T</i>(<i>αx</i><sub>1</sub>, α<i>x</i><sub>2</sub>)=(<i>αx</i><sub>2</sub>, α<i>x</i><sub>1</sub>) and
 α<i>T</i>(<i>x</i>)=α(<i>x</i><sub>2</sub>, <i>x</i><sub>1</sub>)=(<i>αx</i><sub>2</sub>, α<i>x</i><sub>1</sub>).</span>
@@ -49,7 +49,7 @@ Let <i>x</i>=(<i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>)</i> and <i>y</i>=(<i>y
 
 #### <span style="font-family: 'Times New Roman'; font-size: 22px;">2. Matrix associated with a linear transformation:</span>
 <span style="font-family: 'Times New Roman'; font-size: 22px;">Let <i>T</i>: <i>R</i><sup>3</sup>→<i>R</i><sup>2</sup> be a linear transformation. Let <i>B</i><sub>1</sub>={<i>f</i><sub>1</sub>, <i>f</i><sub>2</sub>, <i>f</i><sub>3</sub>} and <i>B</i><sub>2</sub>={<i>e</i><sub>1</sub>, <i>e</i><sub>2</sub>} be basis of <i>R</i><sup>3</sup> and <i>R</i><sup>2</sup> respectively. Then <i>T</i>(<i>f</i><sub>1</sub>)=<i>ae</i><sub>1</sub>+<i>be</i><sub>2</sub>, <i>T</i>(<i>f</i><sub>2</sub>)=<i>ce</i><sub>1</sub>+<i>de</i><sub>2</sub> and <i>T</i>(<i>f</i><sub>3</sub>)=<i>ge</i><sub>1</sub>+<i>he</i><sub>2</sub>, for some <i>a, b, c, d, g, h</i>&isin;<i>R</i>.<br><br>
-Let <i>A</i>=</span> $ \begin{pmatrix}a & c & e \\\ b & d & f\end{pmatrix} $
+Set <i>A</i>=</span> $ \begin{pmatrix}a & c & e \\\ b & d & f\end{pmatrix} $
 
 <span style="font-family: 'Times New Roman'; font-size: 22px;">Then matrix <i>A</i> is of order 2×3 and is called the matrix representation of <i>T</i> w.r.t. the basis <i>B</i><sub>1</sub> and <i>B</i><sub>2</sub>.<br>
 In a similar way, one can check that a matrix representation of <i>T</i>: <i>R</i><sup><i>n</i></sup>→<i>R</i><sup><i>m</i></sup> is of order <i>m</i>×<i>n</i>.</span>
