@@ -35,7 +35,7 @@ Let <i>x</i>=(<i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>)</i> and <i>y</i>=(<i>y
 (i) <i>T</i>(x+y)=<i>T</i>((<i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>)+(<i>y</i><sub>1</sub>, <i>y</i><sub>2</sub>))=<i>T</i>(<i>x</i><sub>1</sub>+<i>y</i><sub>1</sub>, <i>x</i><sub>2</sub>+<i>y</i><sub>2</sub>)=( <i>x</i><sub>2</sub>+<i>y</i><sub>2</sub>, <i>x</i><sub>1</sub>+<i>y</i><sub>1</sub>) and
 <i>T</i>(<i>x</i>)+<i>T</i>(<i>y</i>)=(<i>x</i><sub>2</sub>, <i>x</i><sub>1</sub>)+ (<i>y</i><sub>2</sub>, <i>y</i><sub>1</sub>)= ( <i>x</i><sub>2</sub>+<i>y</i><sub>2</sub>, <i>x</i><sub>1</sub>+<i>y</i><sub>1</sub>). <br>
 (ii) <i>T</i>(<i>αx</i>)=<i>T</i>(<i>αx</i><sub>1</sub>, α<i>x</i><sub>2</sub>)=(<i>αx</i><sub>2</sub>, α<i>x</i><sub>1</sub>) and
-α<i>T</i>(<i>x</i>)=α(<i>x</i><sub>2</sub>, <i>x</i><sub>1</sub>)=(<i>αx</i><sub>2</sub>, α<i>x</i><sub>1</sub>).This completes this proof.</span>
+α<i>T</i>(<i>x</i>)=α(<i>x</i><sub>2</sub>, <i>x</i><sub>1</sub>)=(<i>αx</i><sub>2</sub>, α<i>x</i><sub>1</sub>). This completes this proof.</span>
 
 ##### <span style="font-family: 'Times New Roman'; font-size: 22px;">1.4. Proposition:</span>
   <span style="font-family: 'Times New Roman'; font-size: 22px;"> Let <i>T:M→N</i> be a linear transformation. Then <br>
@@ -53,9 +53,7 @@ In a similar way, one can check that a matrix representation of <i>T</i>: <i>R</
 
 ##### <span style="font-family: 'Times New Roman'; font-size: 22px;">2.1. Example:</span>
 <span style="font-family: 'Times New Roman'; font-size: 22px;">Let <i>T</i>: <i>R</i><sup>2</sup>→<i>R</i><sup>2</sup> be a linear map defined as <i>T</i>(<i>x</i>, y</i>)=(<i>x</i>, -y</i>), where <i>x</i>, y</i>&isin;<i>R</i>. Then find the matrix associated with the transformation w.r.t. the basis <i>B</i><sub>1</sub>={(1, 0), (0,1)} and <i>B</i><sub>2</sub>={(0, -1), (-1, 0)}.<br>
-Let <i>e</i><sub>1</sub>=(1, 0), <i>e</i><sub>2</sub>=(0, 1), <i>f</i><sub>1</sub>=(0, -1) and <i>f</i><sub>2</sub>=(-1, 0). Thus <br>
-<i>T</i>(1, 0)=(1, 0)=0.(0, -1)+(-1).(-1, 0)
-<i>T</i>(0, 1)=(0, -1)= 1.(0, -1)+0.(-1, 0) and hence the matrix representation of <i>T</i> w.r.t. the basis <i>B</i><sub>1</sub> and <i>B</i><sub>2</sub> is A =</span> $ \begin{pmatrix}0 & 1 \\ -1 & 0 \end{pmatrix} $
+Let <i>e</i><sub>1</sub>=(1, 0), <i>e</i><sub>2</sub>=(0, 1), <i>f</i><sub>1</sub>=(0, -1) and <i>f</i><sub>2</sub>=(-1, 0). Thus <i>T</i>(1, 0)=(1, 0)=0.(0, -1)+(-1).(-1, 0), <i>T</i>(0, 1)=(0, -1)= 1.(0, -1)+0.(-1, 0) and hence the matrix representation of <i>T</i> w.r.t. the basis <i>B</i><sub>1</sub> and <i>B</i><sub>2</sub> is A =</span> $ \begin{pmatrix}0 & 1 \\ -1 & 0 \end{pmatrix} $
 
 #### <span style="font-family: 'Times New Roman'; font-size: 22px;">3. Linear transformation associated with a matrix:</span>
 <span style="font-family: 'Times New Roman'; font-size: 22px;">Let <i>A</i>=</span> $ \begin{pmatrix}a & c & e \\\ b & d & f\end{pmatrix} $ <span style="font-family: 'Times New Roman'; font-size: 22px;">be a matrix of order 2×3. Then the linear transformation <i>T</i>: <i>R</i><sup>3</sup>→<i>R</i><sup>2</sup> associated with the matrix w.r.t. the basis <i>B</i><sub>1</sub>={<i>f</i><sub>1</sub>, <i>f</i><sub>2</sub>, <i>f</i><sub>3</sub>} and <i>B</i><sub>2</sub>={<i>e</i><sub>1</sub>, <i>e</i><sub>2</sub>} of <i>R</i><sup>3</sup>  and <i>R</i><sup>2</sup>respectively can be obtained as follows:<br>
