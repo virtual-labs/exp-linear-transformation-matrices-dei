@@ -60,6 +60,7 @@ Let <i>e</i><sub>1</sub>=(1, 0), <i>e</i><sub>2</sub>=(0, 1), <i>f</i><sub>1</su
 <i>T</i>(1, 0)=(1, 0)=0.(0, -1)+(-1).(-1, 0)
 <i>T</i>(0, 1)=(0, -1)= 1.(0, -1)+0.(-1, 0) and hence the matrix</span>
 representation of <i>T</i> w.r.t. the basis <i>B</i><sub>1</sub> and <i>B</i><sub>2</sub> is
+A = $ \begin{pmatrix}0 & 1 \\ -1 & 0 \end{pmatrix} $
 
 #### <span style="font-family: 'Times New Roman'; font-size: 22px;">3. Linear transformation associated with a matrix:</span>
 <span style="font-family: 'Times New Roman'; font-size: 22px;">Let <i>A</i>=</span> $ \begin{pmatrix}a & c & e \\\ b & d & f\end{pmatrix} $
