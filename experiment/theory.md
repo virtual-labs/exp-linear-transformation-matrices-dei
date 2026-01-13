@@ -13,7 +13,7 @@
 <span style="font-family: 'Times New Roman'; font-size: 22px;">Let <i>M</i> and <i>N</i> be vector spaces over a field <i>R</i>. Then the function <i>T</i>: <i>M→N</i> defined as <i>T</i>(<i>x</i>)=0, where <i>x</i>&isin;<i>M</i>, is linear and is known as zero transformation.</span>
 
 ![Zero transformaion](images/exp5image2.PNG "Zero transformaion")<br>
-##### <span style="font-family: 'Times New Roman'; font-size: 22px;">1.3. Examples:</span>
+##### <span style="font-family: 'Times New Roman'; font-size: 22px;">1.3. Example:</span>
 <span style="font-family: 'Times New Roman'; font-size: 22px;">a). Let <i>T</i>: <i>R</i><sup>2</sup>→<i>R</i><sup>2</sup> such that <i>T</i>(<i>x</i>, y<i>)=(<i>x</i>, -y</i>), where <i>x, y</i>&isin;<i>R</i>. Then <i>T</i> is linear.<br>
 <b>Proof:</b>
 Let <i>x</i>=(<i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>) and <i>y</i>=(<i>y</i><sub>1</sub>, <i>y</i><sub>2</sub>)&isin;<i>R</i><sup>2</sup>. Then <i>T</i>(<i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>)=(<i>x</i><sub>1</sub>, -<i>x</i><sub>2</sub>) and
