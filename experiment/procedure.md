@@ -1,6 +1,6 @@
 <span style="font-family: 'Times New Roman'; font-size: 22px;">
 1.	On page 1, examples are provided to geometrically understand linear transformations.<br>
-2.	In the first box click on "Click here" button for geometry of <i>T</i>, then click on "<i>T</i> is linear", if you feel <i>T</i> is linear. Otherwise click on "<i>T</i> is not linear" button to display the result and the reason.<br>
+2.	In the first box click on "Geometry of <i>T</i>" button for geometry of <i>T</i>, then click on "<i>T</i> is linear", if you feel <i>T</i> is linear. Otherwise click on "<i>T</i> is not linear" button to display the result and the reason.<br>
 3.	Repeat the same process for the remaining examples.<br>
 4.	In “Observation” section choose the correct options for the given exercise and click on “Submit” to see the result.<br>
 5.	Click on the “Next” button to go to the next page.<br>
