@@ -1,10 +1,10 @@
 <span style="font-family: 'Times New Roman'; font-size: 22px;">
-1.	On page 1, examples are provided to geometrically understand linear transformations.<br>
-2.	In the first box click on "Geometry of <i>T</i>" button for visualization of <i>T</i>. Then click on "<i>T</i> is linear", if you feel <i>T</i> is linear. Otherwise click on "<i>T</i> is not linear" button to display the result and the reason.<br>
+1.	On the first page, examples are provided to geometrically understand linear transformations.<br>
+2.	In the first box click on "Geometry of <i>T</i>" button for visualization of <i>T</i>. Then click on "<i>T</i> is linear", if you feel <i>T</i> is linear. Otherwise click on "<i>T</i> is not linear" button. This will display the result and the reason.<br>
 3.	Repeat the same process for the remaining examples.<br>
 4.	In “Observation” section choose the correct options for the given exercise and click on “Submit” to see the result.<br>
 5.	Click on the “Next” button to go to the next page.<br>
-6.	Enter the values for bases <i>B</i><sub>1</sub> and <i>B</i><sub>2</sub> and press “Submit” button to display the chosen basis.<br>
+6.	Enter the values for bases <i>B</i><sub>1</sub> and <i>B</i><sub>2</sub> and press “Submit” button to display the chosen bases.<br>
 7.	Click on “Matrix associated with <i>T</i>” to display the matrix associated with <i>T</i> w.r.t. the bases <i>B</i><sub>1</sub> and <i>B</i><sub>2</sub>.<br>
 8.	Click on the “Next” button to go to the next page for the reverse problem.<br>
 9.	Enter the values <i>a, b, c</i> and <i>d</i> to choose a matrix and click on “Submit” button to display it.<br>
