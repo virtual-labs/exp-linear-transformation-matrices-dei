@@ -1,5 +1,5 @@
 <span style="font-family: 'Times New Roman'; font-size: 22px;">
-1.	On first page, examples are provided to geometrically understand linear transformations.<br>
+1.	On the first page, examples are provided to geometrically understand linear transformations.<br>
 2.	In the first box click on "Geometry of <i>T</i>" button for visualization of <i>T</i>. Then click on "<i>T</i> is linear", if you feel <i>T</i> is linear. Otherwise click on "<i>T</i> is not linear" button. This will display the result and the reason.<br>
 3.	Repeat the same process for the remaining examples.<br>
 4.	In “Observation” section choose the correct options for the given exercise and click on “Submit” to see the result.<br>
